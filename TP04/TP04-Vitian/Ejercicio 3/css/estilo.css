@@ -1,0 +1,414 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/**********************************HEADER**********************************/
+#menu{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#saltar{
+    opacity: 0;
+}
+
+#saltar:focus{
+    opacity: 1;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 85.7px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+header figure{
+    width: 7.5vw;
+    float: left;
+}
+
+header figure img{
+    width: 7.5vw;
+}
+
+header figure, nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/**********************************NAV**********************************/
+nav{
+    width: 90vw;
+    height: 85.7px;
+    color: white;
+    text-align: center;
+}
+
+nav ul{
+    height: 85.7px;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+}
+
+nav ul li a{
+    padding: 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+nav input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#bBuscar{
+    color: white;
+    background-color: black;
+    margin-left: 5px;
+}
+
+#bBuscar:hover{
+    background-color: rgb(1, 167, 1)
+}
+
+nav ul li a:hover,nav ul li a:focus{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+/**********************************ARTICLE**********************************/
+#historia{
+    background-image: url(../img/logo\ 1.jpg);
+    background-size: 100% calc(100vh - 85.7px);
+    background-attachment: fixed;
+    background-position: bottom;
+    color: white;
+}
+
+#historia h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 5vh;
+    background-color: #22262969;
+    font-size: 2rem;
+    text-shadow: 0.12rem 0.12rem 0.1rem black;
+}
+
+#historia h2{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2vh;
+    color: white;
+    background-color: #22262969;
+    text-shadow: 0.12rem 0.12rem 0.1rem black;
+}
+
+#historia h3{
+    text-align: center;
+    text-shadow: 0.12rem 0.12rem 0.1rem black;
+}
+
+article p{
+    padding-bottom: 2vh;
+}
+
+/*************************PRIMERA PARTE DE LA HISTORIA*************************/
+#inicios{
+    background-color: #22262969;
+    width: 1249px;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-count: 2;
+    column-gap: 2.5vw;
+    column-width: 40vw;
+    column-rule: 2px solid #6B6E70;
+    padding-bottom: 100px;
+}
+
+#trinchera{
+    width: 250px;
+    float: left;
+}
+
+#primer{
+    width: 300px;
+}
+
+.primeros{
+    width: 150px;
+}
+
+#tres{
+    padding-left: 5vw;
+}
+
+#barranca{
+    width: 200px;
+}
+
+.peque{
+    padding-left: 10vw;
+}
+
+#inicios figure, #inicios video{
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 1vw;
+}
+
+#inicios video{
+    width: 250px;
+    padding-left: 2vw;
+}
+/********************SEGUNDA PARTE DE LA HISTORIA********************/
+#problema{
+    width: 1249px;
+    background-color: #22262969;
+    padding-left: 50px;
+    padding-right: 50px;
+    column-count: 2;
+    column-gap: 2.5vw;
+    column-width: 40vw;
+    column-rule: 2px solid #6B6E70;
+    padding-bottom: 100px;
+}
+
+#tren, #artiga{
+    display: inline-block;
+    padding-bottom: 1vh;
+}
+
+#tren{
+    width: 225px;
+    float: left;
+    padding-left: 2vw;
+}
+
+#artiga{
+    width: 300px;
+}
+
+.figProblema {
+    padding-left: 10vw;
+    padding-bottom: 1vh;
+}
+
+.imgProblema{
+    width: 25vw;
+}
+/********************TERCERA PARTE DE LA HISTORIA********************/
+#cumbre{
+    width: 1349px;
+    height: 145vh;
+    column-count: 3;
+    column-rule: 2px solid #6B6E70;
+    padding-bottom: 100px;
+    background-color: #22262969;
+}
+
+#cumbre figure{
+    padding-left: 6.6vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#cumbre figure img{
+    width: 250px;
+}
+
+#cumbre iframe{
+    width: 30vw;
+    height: 40vh;
+}
+
+#bipolar{
+    padding-top: 11.3vh;
+}
+
+#porfiado{
+    padding-top: 8.5vh;
+}
+
+iframe{
+    padding-left: 1vw;
+}
+
+/********************CUARTA PARTE DE LA HISTORIA********************/
+#actualidad{
+    width: 1349px;
+    height: 90vh;
+    column-count: 3;
+    column-rule: 2px solid #6B6E70;
+    padding-bottom: 100px;
+    background-color: #22262969;
+}
+
+#actualidad figure{
+    padding-left: 6.6vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#actualidad figure img{
+    width: 250px;
+}
+
+#az{
+    padding-bottom: 5vh;
+}
+
+#espacio{
+    padding-bottom: 15vh;
+}
+/******************************RANKING******************************/
+#ranking{
+    background-color: cadetblue;
+    background-image: url(../img/Cnos\ grupo\ 2.jpg);
+    background-size: 100% calc(100vh - 85.7px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    width: calc(100vw - 17px);
+    height: calc(100vh - 85.7px);
+}
+
+#ranking h1{
+    text-align: center;
+    padding: 2vw;
+    font-size: 2rem;
+    text-shadow: 0.12rem 0.12rem 0.1rem black;
+}
+
+#ranking article{
+    background-color: #22262969;
+    height: 100%;
+    color: white;
+}
+
+#ranking ol{
+    text-align: center;
+}
+
+#ranking ol li{
+    padding: 25px;
+    font-size: 1.5rem;
+}
+
+#ranking a{
+    text-decoration: none;
+    color: white;
+}
+/******************************CONTACTO******************************/
+#contacto{
+    width: 98.75vw;
+    height: calc(100vh - 85.7px);
+    background-image: url(../img/4nosR.jpg);
+    background-size: 100vw calc(100vh - 85.7px);
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+#contacto article{
+    background-color: #22262969;
+    height: calc(100vh - 85.7px);
+    color: white;
+}
+
+#contacto article form{
+    margin: 0 auto;
+    padding-top: 23vh;
+    width: 25vw;
+}
+
+#contacto legend{
+    text-align: center;
+    padding-bottom: 1vh;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contacto input{
+    border: thin solid black;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#contacto textarea{
+    border: thin solid black;
+    resize: none;
+}
+
+#sendC, #resetC{
+    padding: 5px;
+    width: 5vw;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#sendC:hover,#resetC:hover{
+    background-color: lightblue;
+}
+/***********************************LOGIN***********************************/
+footer{
+    width: 100%;
+    height: calc(100vh - 95.7px);
+    text-align: center;
+}
+
+footer h3{
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+footer legend{
+    padding-left: 15.5vw;
+    text-align: center;
+}
+
+footer figure{
+    margin: 0 auto;
+}
+
+footer figure img{
+    width: 300px;
+}
+
+footer form{
+    width: 40vw;
+    height: 40vh;
+    margin: 0 auto;
+}
+
+footer input{
+    border: thin solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+#entrar{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(1, 179, 1);
+    color: white;
+}
+
+#entrar:hover{
+    background-color: black;
+    color: white;
+}
+
+#final{
+    margin-top: 45vh;
+}

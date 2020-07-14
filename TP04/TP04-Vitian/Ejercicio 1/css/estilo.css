@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+    background-image: url(../img/fondo5.jpg);
+}
+/*********HEADER**********/
+header{
+    text-align: center;
+    width: 100vw;
+    background-color: rgb(9, 9, 141);
+    color: white;
+    font-size: 1.5vw;
+}
+
+#saltar{
+    opacity: 0;
+    text-align: left;
+}
+
+#saltar:focus{
+    opacity: 1;
+    color: white;
+}
+/*********NAV**********/
+nav{
+    width: 97.67vw;
+    height: 5vh;
+    padding: 1rem;
+    background-color: rgb(9, 9, 141);
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li{
+    padding-left: 1.4rem;
+	font-size: 1.2rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    background-color: grey;
+    border: medium solid black;
+}
+
+nav ul a:hover, nav ul a:focus{
+	background-color: yellow;
+	color: black; 
+}
+
+/*********VIDEO**********/
+main{
+    margin-top: 5vh;
+    width: 100%;
+    text-align: center;
+}
+video{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+/*********ARTICLE**********/
+article{
+    text-align: center;
+}
+article p{
+    margin: 2vh auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+form{
+    text-align: left;
+    margin: 0 auto;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+fieldset{
+    border: medium solid blue;
+    padding: 2.5%;
+}
+form label{
+    width: 30%;
+    margin-left: 2vw;
+}
+input{
+    margin: 1%;
+    margin-right: 8vw;
+    border: thin solid black;
+}
+#mail{
+    width: 13vw;
+}
+select{
+    border: thin solid black;
+}
+#car{
+    margin-left: 2vw;
+}
+.check{
+    margin: 0em;
+    margin-right: 1rem;
+    margin-left: 2vw;
+}
+#dWeb{
+    margin: 0;
+}
+#tFree{
+    margin: 0;
+}
+#bData{
+    margin: 0;
+}
+#año{
+    width: 4vw;
+}
+textarea{
+    margin: 0 auto;
+    border: thin solid black;
+    resize: none;
+}
+#guardar{
+    margin: 0;
+    margin-top: 1vh;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+}
+#limpiar{
+    margin: 0;
+    margin-top: 1vh;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+}
+/*********FOOTER**********/
+footer{
+    width: 97.68vw;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(9, 9, 141);
+    margin-top: 18.9vh;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}

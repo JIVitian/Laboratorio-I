@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+/*********HEADER**********/
+header{
+    width: 100vw;
+    background-color: rgb(85, 255, 96);
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+#salto{
+    opacity: 0;
+    vertical-align: middle;
+}
+
+#salto:focus{
+    opacity: 1;
+    color: black;
+}
+/*********MAIN**********/
+main{
+    width: 80vw;
+    background-image: url(../img/diabetes.jpg);
+    background-repeat: no-repeat;
+    background-size: 80vw 85vh;
+    height: 85vh;
+}
+
+main h2{
+    background-color: rgba(255, 68, 0, 0.75);
+    padding: 1rem;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    width: 70vw;
+}
+
+main p{
+    background-color: rgba(85, 255, 96, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 68.87vw;
+    margin-left: 3vw;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+/*********SECTION**********/
+section{
+    width: 80vw;
+    height: 85vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    vertical-align: top;
+}
+/*********ARTICLE**********/
+article{
+    width: 75vw;
+    margin: 2.5vw;
+    text-align: left;
+}
+/*********TABLE**********/
+table{
+    margin: 0 auto;
+    border: medium solid green;
+    border-collapse: collapse;
+    width: 30vw;
+}
+
+table caption{
+    border: medium solid green;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 0, 0.75);
+}
+
+th{
+    border: medium solid green;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 0, 0.75);
+    text-align: center;
+}
+
+td{
+    border: medium solid green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 0, 0.75);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#col1{
+    width: calc(30vw/3);
+}
+
+#col2{
+    width: calc(30vw/3);
+}
+
+#col3{
+    width: calc(30vw/3);
+}
+/*********ASIDE**********/
+aside{
+    width: 18.75vw;
+    height: 85vh;
+    font-size: large;
+    float: right;
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+main, aside{
+    display: inline-block;
+}
+/*********FOOTER**********/
+footer{
+    width: 100vw;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(85, 255, 96);
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}

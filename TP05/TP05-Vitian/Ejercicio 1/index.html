@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vitian, Jorge Iván">
+    <meta name="description" content="Ejercicio 1 TP05 de Laboratorio I">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <title>Pinturería Colorin</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Pinturería Colorin</h1>
+        <a id="saltar" href="#pinturas">Saltar al Contenido</a>
+        <form action="php/laboratorio2.php" method="POST">
+            <fieldset>
+                <label for="clave"></label>
+                <input type="search" name="clave" id="clave" placeholder="buscar">
+                <input type="submit" name="enviar" id="enviar" value="Ir!">
+            </fieldset>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li><a>Promociones</a></li>
+            <li><a>Productos</a></li>
+            <li><a>Tendencias</a></li>
+            <li><a>Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article id="pinturas">
+                <figure>
+                    <img id="fotoP" src="image/pinturas.jpg" title="Conocé todas nuestras pinturas!" alt="Rodillo para pintar huntado en amarillo">
+                </figure>
+            </article>
+            <article id="complementos">
+                <figure id="figureC">
+                    <img src="image/piletas.jpg" title="Mirá las piletas que tenemos para ofrecerte!" alt="Pileta de Fondo">
+                    <img src="image/metales.jpg" title="Tambien tenemos pinturas especialmente para metales!" alt="Foto de un quincho">
+                    <img src="image/maderas.jpg" title="Te ofrecemos Barnices y pinturas para tus maderas!" alt="Lata de pintura sobre una tabla de madera">
+                </figure>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

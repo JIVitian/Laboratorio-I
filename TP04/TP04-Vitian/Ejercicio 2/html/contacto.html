@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto FACET ecoTech">
+    <meta name="author" content="Vitian, Jorge Iván">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>FACET ecoTech</title>
+</head>
+<body>
+    <header>
+        <a id="saltar" href="#contacto">Saltar al Contenido</a>
+        <figure>
+            <a href="../index.html"><h1><img title="Ir al Inicio" alt="Lógo de EcoFacet" src="../img/logo.png"></h1></a>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../html/noticias.html">Noticias</a></li>
+                <li><a>Misión</a></li>
+                <li><a>Visión</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a id="sesion" href="../html/login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="contacto">
+                <figure>
+                    <img id="imgcontact" src="../img/contacto.png" title="Contacto" alt="Imagen de persona tecleando">
+                </figure>
+                <form action="../php/labo2.php" method="post">
+                    <fieldset>
+                    <legend id="contactH2"><h2>Contáctenos</h2></legend>
+                        <input class="contact" type="text" placeholder="Ingrese su nombre" name="name">
+                        <input class="contact" type="text" placeholder="Ingrese su mail" name="mail">
+                        <input class="contact" type="tel" placeholder="Ingrese su telefono" name="phone">
+                        <textarea cols="40" rows="2" placeholder="Ingreese su mensaje"></textarea>
+                        <input id="send" type="submit" value="Enviar una Consulta">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="https://facetvirtual.facet.unt.edu.ar/course/view.php?id=224" title="Visita la página de Laboratorio I">Laboratorio I - FACET - 2020</a>
+    </footer>
+</body>
+</html>

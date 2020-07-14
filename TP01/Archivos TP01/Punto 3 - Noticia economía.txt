@@ -1,0 +1,13 @@
+Cuál es el salario promedio de un programador en la Argentina en septiembre de 2019
+
+[Texto del pie de imagen]
+El sueldo promedio de un programador sin experiencia es de 37.050 pesos, de acuerdo a la encuesta realizada por la Cámara de la Industria Argentina del Software (CESSI)
+
+Desde hace tres años la Cámara de la Industria Argentina del Software publica un reporte sobre el nivel salarial de los programadores en el país, basado en las encuesta que realiza entre 170 empresas que emplean 20.700 profesionales. Los datos se obtuvieron de la última encuesta anual llevada a cabo por el Observatorio Permanente de la Industria de Software y Servicios Informáticos de la Argentina (OPSSI) de CESSI, en conjunto con la Comisión de Asuntos Laborales de la institución.
+
+A la fecha, los salarios promedio en la Argentina, según la CESSI, eran los siguientes:
+
+Programador sin experiencia (junior): $ 37.050
+Programador con alguna experiencia (semi-senior): $ 54.060
+Programador con experiencia (senior): $ 74.870
+En relación al informe publicado en julio de 2018, la CESSI indica que hubo un aumento promedio de los salarios del sector de un 47,5 por ciento, mientras que de forma puntual los desarrolladores tuvieron un incremento del 50.1 por ciento. "Esta cifra superior se debe a que la posición de programador/ desarrollador, representa a más del 40% de la oferta de puestos de perfil tecnológico, siendo muy demandada y difícil de cubrir", dijo la Cámara de la Industria Argentina del Software en un comunicado.

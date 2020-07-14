@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+    background-image: url(../img/fondo2.jpg);
+}
+/*********HEADER**********/
+header{
+    width: 100vw;
+    background-color: rgb(2, 2, 128);
+    color: white;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+#salto{
+    opacity: 0;
+    vertical-align: middle;
+}
+
+#salto:focus{
+    opacity: 1;
+    color: black;
+}
+/*********NAV**********/
+nav{
+    width: 18.75vw;
+    height: 150vh;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li{
+    width: 80%;
+    height: 7vh;
+    padding: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 2.5%;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav p{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+}
+
+nav li:hover,nav li:focus{
+    background-color: rgba(0, 255, 255, 0.75);
+    border: thin solid rgb(251, 255, 0);
+}
+/*********MAIN**********/
+main{
+    width: 60.5vw;
+    height: 150vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main h2{
+    background-color: rgba(0, 255, 255, 0.75);
+    padding: 1rem;
+    width: 50vw;
+    margin-left: 4vw;
+}
+
+main p{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 48.87vw;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-left: 4vw;
+    margin-right: 4vw;   
+}
+/*********SECTION**********/
+section{
+    width: 100%;
+    vertical-align: top;
+}
+/*********ARTICLE**********/
+article{
+    width: 100%;
+    text-align: center;
+}
+
+article h2{
+    background-color: rgba(0, 255, 255, 0.75);
+    padding: 1rem;
+    width: 50vw;
+    margin-left: 4vw;
+}
+
+article h3{
+    background-color: rgba(0, 255, 255, 0.75);
+    padding: 1.5rem;
+    width: 45vw;
+    margin-left: 6.5vw;
+}
+/*********ASIDE**********/
+aside{
+    width: 18.75vw;
+    height: 150vh;
+    font-size: large;
+    color: white;
+    vertical-align: top;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside li{
+    width: 80%;
+    height: 7vh;
+    padding: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 2.5%;
+}
+
+aside li:hover,aside li:focus{
+    background-color: rgba(0, 255, 255, 0.75);
+    border: thin solid rgb(251, 255, 0);
+}
+
+aside p{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    color: black;
+}
+
+main, aside, nav{
+    display: inline-block;
+}
+/*********FOOTER**********/
+footer{
+    width: 100vw;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(2, 2, 128);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,6 @@
+Los mejores editores gratuitos de HTML, CSS y JavaScript
+
+Adiós al diseño visual
+Los diseños web actuales se realizan de manera que los elementos se distribuyen de forma totalmente diferente según el ancho del Viewport del dispositivo en el que se estén visualizando. Ello implica que no podemos hacer un diseño "visual" distribuyendo los elementos y dejándolos en una posición fija, sino que el diseño parte normalmente de los tamaños de pantalla más pequeños (móviles) y se van variando a medida que crecen éstos.
+
+El diseño web responsivo (Responsive Web Design) requiere escribir el código en el editor, tanto el HTML como el CSS y las media queries correspondientes, y luego ir comprobando en un navegador real el efecto de cada cambio. Gran parte de las veces lo que haces es retocar en tiempo real propiedades CSS usando las herramientas del desarrollador del navegador para afinarlo. Hoy, más que nunca, el diseño/desarrollo web es una disciplina técnica que requiere escribir código, y no arrastrar y soltar o ver en tiempo real cómo quedan las cosas.

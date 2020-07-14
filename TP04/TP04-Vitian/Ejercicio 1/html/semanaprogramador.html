@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evento Semana del programador organizado por el departamento de ciencias computacionales FACET 2020">
+    <meta name="author" content="Vitian, Jorge Iván">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Evento Semana del Programador</title>
+</head>
+<body>
+    <header>
+        <a id="saltar" href="#form">saltar al contenido</a>
+        <h1>Departamento de Ciencias de la Computación</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="semanaprogramador.html">Semana del programador</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2>Inscribite a la Semana del Programador</h2>
+                <p>Bienvenido!</p>
+                <p>Llene el formulario de abajo y será parte de la semana del programador.</p>
+                <form id="form" action="../php/labo2.php" method="post">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="ape"> Apellido</label>
+                            <input id="ape" type="text" name="apellido" maxlength="30">
+                        <label for="nomb"> Nombre</label>
+                            <input id="nomb" type="text" name="nombre" maxlength="30">
+                        <label for="telef"> Teléfono</label>
+                            <input id="telef" type="tel" pattern="[0-9]{10}" name="telefono" placeholder="3816212312">
+                        <label for="nac"> Nacimiento</label>
+                            <input id="nac" type="date" name="nacimiento" value="1995-01-01">
+                        <label for="mail"> Correo electrónico </label>
+                            <input id="mail" type="email" name="correo" placeholder="ejemplo@dominio.com" minlength="10" maxlength="45">
+                            <hr>
+                        <label id="car" for="carrera"> Carrera </label>
+                            <select name="carrera" id="carrera">
+                                <option value="Agrimensura">Agrimensura</option>
+                                <option value="PU" selected>Programador Universitario</option>
+                                <option value="Licenciatura en Informática">Licenciatura en Informática</option>
+                            </select>
+                        <label id="ing" for="año"> Año que cursa</label>
+                            <input id="año" type="number" min="1" max="5" name="cuesa" value="1" placeholder="1">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Talleres de Interés</legend>
+                        <label class="check" for="dWeb">
+                            <input type="checkbox" name="dWeb" id="dWeb"> Desarrollo Web
+                        </label>
+                        <label class="check" for="tFree">
+                            <input type="checkbox" name="tFree" id="tFree"> Trabajo Freelance
+                        </label>
+                        <label class="check" for="bData">
+                            <input type="checkbox" name="bData" id="bData"> Base de Datos
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Observaciones</legend>
+                        <textarea id="obs" cols="85" rows="5"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Guardar" id="guardar">
+                    <input type="reset" value="Limpiar" id="limpiar">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="https://facetvirtual.facet.unt.edu.ar/course/view.php?id=224" title="Página web de Laboratorio I">Departamento de Ciencias de la Computación - 2020 - FACET</a>
+    </footer>
+</body>
+</html>

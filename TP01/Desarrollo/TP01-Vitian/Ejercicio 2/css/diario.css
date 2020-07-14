@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+h1 {
+	padding: 0.3em;
+	text-align: center;
+	color: white;
+	background-color: rgb(209, 51, 248);
+	font-size: 3em;
+}
+
+h2 {
+	padding: 0.2em;
+}
+
+nav {
+	padding: 0.5em;
+	background-color: #000000;
+}
+
+nav a:hover , nav a:focus, nav li:hover, nav li:focus{
+	color: yellow;
+}
+
+header a {
+	color:white;
+	text-decoration: none;
+	padding: 0.2em;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: white;
+}
+
+nav li {
+	padding: 0.4em;
+	display: inline-block;
+}
+
+main {
+	width:87%;
+	display: inline-block;
+}
+
+/*********** ASIDE ***********/
+aside {
+	width: 10%;
+	display: inline-block;
+	background-color: #DBDBDB;
+	vertical-align: top;
+	text-align: center;
+	padding: 1em;
+}
+
+aside a{
+	color: purple;
+}
+
+article li{
+	color: green;
+}
+
+aside img {
+	width: 90%;
+}
+
+hr{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 0.05em solid;
+}
+/********* FIN ASIDE *********/
+
+/*********** FOOTER ***********/
+footer a {
+	color:#F7F87F;
+}
+
+footer {
+	width: 100%;
+	background-color: #080077;
+	color: white;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	text-align: center;
+}
+/********* FIN FOOTER *********/
+
+article li {
+	margin: 1em;
+}
+
+section article {
+	margin: 1%;
+} 
+
+article p {
+	margin-top: 1%;
+	font-size: 1.2em;
+	color: green;
+}
+
+article figcaption{
+	color: green;
+}
+
+article figure {
+	width: 100%;
+}
+
+article img{
+	width: 30%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollo del ejercicio 3 del TP3 de Laboratorio I-2020">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <header>
+        <a id="salto" href="#contenido">Saltar al contenido</a>
+        <h1>Instituto de Dietética Dr. Junco</h1>
+    </header>
+    <main>
+        <section>
+            <h2 id="contenido">¿Qué es Pre-diabetes?</h2>
+            <p>La pre-diabetes es una condición en la que los niveles de azúcar en sangre (glucosa) están por encima de los niveles normales, pero no lo suficientemente altos como para clasificarlo como diabetes. Es una condición generalmente <strong>REVERSIBLE</strong> <em>si se hacen ciertos cambios en el estilo de vida</em>.</p>
+            <article id="tabla">
+                <table>
+                    <caption>Cuadro Comparativo de Análisis de glucosa en sangre</caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2" id="col1" scope="col">Estado</th>
+                            <th colspan="2" id="col2" scope="colgroup">En ayunas</th>
+                            <th rowspan="2" id="col3" scope="col">2hrs<br>después de<br>comer</th>
+                        </tr>
+                        <tr>
+                            <th headers="col2" id="min" scope="col">Mínimo</th>
+                            <th headers="col2" id="max" scope="col">Máximo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th headers="col1" scope="row">Normal</th>
+                            <td headers="min">70</td>
+                            <td headers="max">100</td>
+                            <td headers="col3">Menos de 149</td>
+                        </tr>
+                        <tr>
+                            <th headers="col1" scope="row">Pre-Diabetes</th>
+                            <td headers="min">101</td>
+                            <td headers="max">126</td>
+                            <td headers="col3">De 149 a 200</td>
+                        </tr>
+                        <tr>
+                            <th headers="col1" scope="row">Diabetes</th>
+                            <td headers="min">Más de 126</td>
+                            <td headers="max">N/D</td>
+                            <td headers="col3">Más de 200</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <p>Publicidad</p>
+    </aside>
+
+    <footer>
+        <a href="https://facetvirtual.facet.unt.edu.ar/course/view.php?id=224" title="Visitanos" target="_blank">Laboratorio I - 2020</a>
+    </footer>
+</body>
+</html>

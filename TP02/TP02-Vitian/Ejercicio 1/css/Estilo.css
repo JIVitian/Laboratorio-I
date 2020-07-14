@@ -1,0 +1,166 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+header{
+	background-color: orange;
+}
+
+header nav, header figure{
+	display: inline-block;
+}
+
+nav {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+h1{
+	font-size: 1.8rem;
+	padding-bottom: 1rem;
+}
+
+nav ul{
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 3%;
+	padding-left: 15%;
+}
+
+nav li{
+	padding-left: 2rem;
+	font-size: 1.2rem;
+	display: inline-block;
+	vertical-align: middle / top / bottom;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	border-radius: 2rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+nav figure{
+	width: 15%;
+}
+
+nav img{
+	width: 80%;
+}
+
+nav ul, nav figure {
+	display: inline-block;
+}
+
+nav ul a:hover, nav ul a:focus{
+	background-color: red;
+	color: black; 
+}
+
+header nav figure{
+	padding: 1rem;
+	float: left;
+	vertical-align: top;
+}
+
+main{
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+}
+
+section img{
+	width: 100%;
+}
+
+/*********ARTICLE**********/
+
+article {
+	margin: 0.5rem;
+	margin-bottom: 1rem;
+	padding: 1%;
+	border-width: 0.3rem;
+	border-color: orange;
+	border-style: solid;
+	border-radius: 5px;
+	vertical-align: top;
+}
+
+article p {
+	margin-bottom: 1%;
+	font-size: 1rem;
+}
+
+article mark{
+	background-color: rgba(255, 255, 0, 0.5);
+}
+
+article figure {
+	width: 25%;
+	float: left;
+}
+
+article img{
+	width: 95%;
+}
+
+/*********** FIN ARTICLE ***********/
+
+article, aside{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*********** ASIDE ***********/
+aside {
+	margin: 0.5rem;
+	margin-left: 1rem;
+	width: 20%;
+	vertical-align: top;
+	padding: 1rem;
+	border-radius: 5px;
+	border-width: 0.3rem;
+	border-style: solid;
+	border-color: orange;
+}
+aside strong{
+	text-align: center;
+	width: 100%;
+	font-size: 1.2rem;
+	padding-right: 32%;
+	padding-left: 30%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background-color: orange;
+	border-radius: 0.5rem;
+}
+
+aside ul{
+	list-style-type: square;
+	padding-left: 1.5rem;
+}
+
+aside li{
+	padding-top: 1rem;
+}
+
+aside li a{
+	text-decoration: none;
+	color: black;
+}
+/********* FIN ASIDE *********/
+
+/*********** FOOTER ***********/
+footer {
+	width: 100%;
+	background-color: orange;
+	color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
