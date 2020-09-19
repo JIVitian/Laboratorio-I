@@ -1,0 +1,1392 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: USP 20200322\n"
+"Language: ga\n"
+
+#. Name of the plugin
+#: user-submitted-posts.php:44 library/support-panel.php:5
+msgid "User Submitted Posts"
+msgstr "Poist a chuirtear isteach ag an úsáideoir"
+
+#: user-submitted-posts.php:82
+msgid "requires WordPress "
+msgstr "Éilíonn WordPress "
+
+#: user-submitted-posts.php:83
+msgid " or higher, and has been deactivated! "
+msgstr " nó níos airde, agus tá sé díghníomhachtaithe! "
+
+#: user-submitted-posts.php:84
+msgid "Please return to the"
+msgstr "Seol ar ais chuig an"
+
+#: user-submitted-posts.php:85
+msgid "WordPress Admin Area"
+msgstr "Limistéar Riaracháin WordPress"
+
+#: user-submitted-posts.php:86
+msgid "to upgrade WordPress and try again."
+msgstr "chun WordPress a uasghrádú agus bain triail eile as."
+
+#: user-submitted-posts.php:126
+msgid "User Submitted Post"
+msgstr "Post arna Chur isteach ag an Úsáideoir"
+
+#: user-submitted-posts.php:516
+msgid "User Submitted Post Info"
+msgstr "Faisnéis Poist a Cuireadh isteach leis an Úsáideoir"
+
+#: user-submitted-posts.php:546
+msgid "Submitter Name: "
+msgstr "Ainm an Aighneora: "
+
+#: user-submitted-posts.php:547
+msgid "Submitter Email: "
+msgstr "Ríomhphost an Aighneora: "
+
+#: user-submitted-posts.php:548
+msgid "Submitter URL: "
+msgstr "URL an Aighneora: "
+
+#: user-submitted-posts.php:549
+msgid "Submitter IP: "
+msgstr "IP an Aighneora: "
+
+#: user-submitted-posts.php:604
+msgid "Show USP Posts"
+msgstr "Taispeáin Poist USP"
+
+#: user-submitted-posts.php:605 library/plugin-settings.php:1155
+msgid "USP"
+msgstr "USP"
+
+#: user-submitted-posts.php:1442
+msgid " files required"
+msgstr " comhaid ag teastáil"
+
+#: user-submitted-posts.php:1443
+msgid " file required"
+msgstr " comhad ag teastáil"
+
+#: user-submitted-posts.php:1445
+msgid " files"
+msgstr " comhaid"
+
+#: user-submitted-posts.php:1446
+msgid " file"
+msgstr " comhad"
+
+#: user-submitted-posts.php:1448 user-submitted-posts.php:1449
+#: user-submitted-posts.php:1450 user-submitted-posts.php:1451
+msgid " pixels"
+msgstr " picteilíní"
+
+#: user-submitted-posts.php:1453 library/core-functions.php:219
+#: library/plugin-settings.php:317 library/plugin-settings.php:336
+#: library/plugin-settings.php:843 library/plugin-settings.php:1414
+msgid "Custom Field"
+msgstr "Réimse Saincheaptha"
+
+#: user-submitted-posts.php:1455
+msgid "Custom checkbox required"
+msgstr "Bosca seiceála saincheaptha ag teastáil"
+
+#: user-submitted-posts.php:1458
+msgid "An error occurred. Please go back and try again."
+msgstr "Tharla earráid. Téigh ar ais agus bain triail eile as."
+
+#: user-submitted-posts.php:1468
+msgid "User login required"
+msgstr "Logáil isteach úsáideora de dhíth"
+
+#: user-submitted-posts.php:1469
+msgid "User name required"
+msgstr "Ainm úsáideora ag teastáil"
+
+#: user-submitted-posts.php:1470
+msgid "Post title required"
+msgstr "Teideal an phoist ag teastáil"
+
+#: user-submitted-posts.php:1471
+msgid "User URL required"
+msgstr "URL úsáideora de dhíth"
+
+#: user-submitted-posts.php:1472
+msgid "Post tags required"
+msgstr "Clibeanna poist ag teastáil"
+
+#: user-submitted-posts.php:1473
+msgid "Post category required"
+msgstr "Catagóir an phoist de dhíth"
+
+#: user-submitted-posts.php:1474
+msgid "Post content required"
+msgstr "Postáil ábhar riachtanach"
+
+#: user-submitted-posts.php:1475 user-submitted-posts.php:1476
+msgid "Correct captcha required"
+msgstr "Captcha ceart ag teastáil"
+
+#: user-submitted-posts.php:1477
+msgid "User email required"
+msgstr "R-phost úsáideora ag teastáil"
+
+#: user-submitted-posts.php:1478
+msgid "Please check your email and try again"
+msgstr "Seiceáil do r-phost le do thoil agus bain triail eile as"
+
+#: user-submitted-posts.php:1479
+msgid "Non-empty value for hidden field"
+msgstr "Luach neamhfholamh do réimse i bhfolach"
+
+#: user-submitted-posts.php:1480
+msgid "Minimum number of images not met"
+msgstr "Líon íosta íomhánna nár comhlíonadh"
+
+#: user-submitted-posts.php:1481
+msgid "Maximum number of images exceeded "
+msgstr "Sáraíodh an líon uasta íomhánna "
+
+#: user-submitted-posts.php:1482
+msgid "Minimum image width not met"
+msgstr "Ní chomhlíontar an leithead íomhá íosta"
+
+#: user-submitted-posts.php:1483
+msgid "Image width exceeds maximum"
+msgstr "Sáraíonn leithead na híomhá an t-uasmhéid"
+
+#: user-submitted-posts.php:1484
+msgid "Minimum image height not met"
+msgstr "Uas-airde íomhá nár comhlíonadh"
+
+#: user-submitted-posts.php:1485
+msgid "Image height exceeds maximum"
+msgstr "Sáraíonn airde na híomhá an t-uasmhéid"
+
+#: user-submitted-posts.php:1486
+msgid "File type not allowed (please upload images only)"
+msgstr "Ní cheadaítear cineál comhaid (uaslódáil íomhánna amháin le do thoil)"
+
+#: user-submitted-posts.php:1487
+msgid " required"
+msgstr " riachtanach"
+
+#: user-submitted-posts.php:1492
+msgid "File not uploaded. Please check the file and try again."
+msgstr "Níor uaslódáil an comhad. Seiceáil an comhad le do thoil agus bain triail eile as."
+
+#: user-submitted-posts.php:1496
+msgid "The file(s) could not be uploaded"
+msgstr "Ní fhéadfaí an comhad / na comhaid a uaslódáil"
+
+#: user-submitted-posts.php:1498
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "Post gan a bheith cruthaithe. Téigh i dteagmháil le riarthóir an láithreáin le do thoil chun cabhair a fháil."
+
+#: user-submitted-posts.php:1499
+msgid "Duplicate post title. Please try again."
+msgstr "Teideal poist dúblach. Arís, le d'thoil."
+
+#: user-submitted-posts.php:1509
+msgid "Error: "
+msgstr "Earráid: "
+
+#: user-submitted-posts.php:1535
+msgid "Return to form"
+msgstr "Fill ar ais ar an bhfoirm"
+
+#: user-submitted-posts.php:1565 library/plugin-settings.php:1131
+msgid "Please"
+msgstr "Le do thoil"
+
+#: user-submitted-posts.php:1566
+msgid "log in"
+msgstr "Logáil isteach"
+
+#: user-submitted-posts.php:1567
+msgid "to submit content!"
+msgstr "chun ábhar a chur isteach!"
+
+#: views/submission-form.php:21 views/submission-form-alt.php:40
+msgid "Please complete the required fields."
+msgstr "Comhlánaigh na réimsí riachtanacha le do thoil."
+
+#: views/submission-form.php:31 views/submission-form.php:32
+#: views/submission-form-alt.php:46 views/submission-form-alt.php:47
+msgid "Your Name"
+msgstr "Do ainm"
+
+#: views/submission-form.php:37 views/submission-form.php:38
+#: views/submission-form-alt.php:52 views/submission-form-alt.php:53
+msgid "Your Email"
+msgstr "Do r-phost"
+
+#: views/submission-form.php:43 views/submission-form.php:44
+#: views/submission-form-alt.php:58 views/submission-form-alt.php:59
+msgid "Your URL"
+msgstr "Do URL"
+
+#: views/submission-form.php:49 views/submission-form.php:50
+#: views/submission-form-alt.php:64 views/submission-form-alt.php:65
+#: library/plugin-settings.php:1192
+msgid "Post Title"
+msgstr "Teideal an Phoist"
+
+#: views/submission-form.php:56 views/submission-form.php:65
+#: views/submission-form.php:66 views/submission-form-alt.php:71
+#: views/submission-form-alt.php:80 views/submission-form-alt.php:81
+#: library/plugin-settings.php:1193
+msgid "Post Tags"
+msgstr "Clibeanna Poist"
+
+#: views/submission-form.php:57 views/submission-form.php:58
+#: views/submission-form-alt.php:72 views/submission-form-alt.php:73
+msgid "Please select some tags.."
+msgstr "Roghnaigh roinnt clibeanna le do thoil."
+
+#: views/submission-form.php:79 views/submission-form-alt.php:94
+msgid "Antispam Question"
+msgstr "Ceist Antispam"
+
+#: views/submission-form.php:84 views/submission-form-alt.php:99
+#: library/plugin-settings.php:1194
+msgid "Post Category"
+msgstr "Catagóir an Phoist"
+
+#: views/submission-form.php:85 views/submission-form.php:86
+#: views/submission-form-alt.php:100 views/submission-form-alt.php:101
+msgid "Please select a category.."
+msgstr "Roghnaigh catagóir le do thoil."
+
+#: views/submission-form.php:117 views/submission-form.php:118
+#: views/submission-form-alt.php:132 views/submission-form-alt.php:133
+#: library/plugin-settings.php:1195
+msgid "Post Content"
+msgstr "Ábhar an Phoist"
+
+#: views/submission-form.php:125 views/submission-form-alt.php:140
+msgid "Verification"
+msgstr "Fíorú"
+
+#: views/submission-form.php:132 views/submission-form-alt.php:147
+msgid "Upload an Image"
+msgstr "Uaslódáil Íomhá"
+
+#: views/submission-form.php:141 views/submission-form-alt.php:156
+msgid "Add another image"
+msgstr "Cuir íomhá eile leis"
+
+#: views/submission-form.php:163 views/submission-form-alt.php:178
+msgid "Human verification: leave this field empty."
+msgstr "Fíorú daonna: fág an réimse seo folamh."
+
+#: views/submission-form.php:191 views/submission-form-alt.php:206
+msgid "Submit Post"
+msgstr "Cuir isteach Post"
+
+#: library/enqueue-scripts.php:149 library/enqueue-scripts.php:192
+msgid "Incorrect response."
+msgstr "Freagra mícheart."
+
+#: library/shortcode-misc.php:18
+msgid "Reset form"
+msgstr "Foirm athshocraithe"
+
+#: library/shortcode-misc.php:128
+msgid "View full post"
+msgstr "Féach ar an bpost iomlán"
+
+#: library/plugin-settings.php:31
+msgid "Settings"
+msgstr "Socruithe"
+
+#: library/plugin-settings.php:40
+msgid "Get USP Pro for unlimited forms!"
+msgstr "Faigh USP Pro le haghaidh foirmeacha neamhtheoranta!"
+
+#: library/plugin-settings.php:41
+msgid "Go Pro"
+msgstr "Téigh Pro"
+
+#: library/plugin-settings.php:62 library/plugin-settings.php:1163
+#: library/plugin-settings.php:1773
+msgid "Plugin Homepage"
+msgstr "Leathanach Baile Breiseán"
+
+#: library/plugin-settings.php:63
+msgid "Homepage"
+msgstr "Leathanach baile"
+
+#: library/plugin-settings.php:68
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "Tabhair rátáil 5 réalta do USP ag WordPress.org"
+
+#: library/plugin-settings.php:69
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "Déan an breiseán seo a rátáil & nbsp; & raquo;"
+
+#: library/plugin-settings.php:127
+msgid "WP Post (recommended)"
+msgstr "WP Post (molta)"
+
+#: library/plugin-settings.php:131
+msgid "WP Page"
+msgstr "Leathanach WP"
+
+#: library/plugin-settings.php:147
+msgid "HTML5 Form + Default CSS"
+msgstr "Foirm HTML5 + CSS Réamhshocraithe"
+
+#: library/plugin-settings.php:147
+msgid "(Recommended)"
+msgstr "(Molta)"
+
+#: library/plugin-settings.php:151
+msgid "HTML5 Form + Disable CSS"
+msgstr "Foirm HTML5 + CSS a dhíchumasú"
+
+#: library/plugin-settings.php:151
+msgid "(Provide your own styles)"
+msgstr "(Cuir do stíleanna féin ar fáil)"
+
+#: library/plugin-settings.php:155
+msgid "Custom Form + Custom CSS"
+msgstr "Foirm Chustaim + CSS Saincheaptha"
+
+#: library/plugin-settings.php:155
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(Cuir do theimpléad foirme féin & stíleanna amp; ar fáil)"
+
+#: library/plugin-settings.php:171 library/plugin-settings.php:195
+#: library/plugin-settings.php:218 library/plugin-settings.php:242
+msgid "Auto-display before post content"
+msgstr "Taispeántas uathoibríoch roimh ábhar an phoist"
+
+#: library/plugin-settings.php:175 library/plugin-settings.php:199
+#: library/plugin-settings.php:222 library/plugin-settings.php:246
+msgid "Auto-display after post content"
+msgstr "Taispeántas uathoibríoch i ndiaidh ábhar an phoist"
+
+#: library/plugin-settings.php:179
+msgid "Do not auto-display submitted images"
+msgstr "Ná taispeáin íomhánna a cuireadh isteach go huathoibríoch"
+
+#: library/plugin-settings.php:203
+msgid "Do not auto-display submitted email"
+msgstr "Ná taispeáin an ríomhphost a cuireadh isteach go huathoibríoch"
+
+#: library/plugin-settings.php:226
+msgid "Do not auto-display submitted URL"
+msgstr "Ná taispeáin an URL a cuireadh isteach go huathoibríoch"
+
+#: library/plugin-settings.php:250
+msgid "Do not auto-display the Custom Field"
+msgstr "Ná taispeáin an Réimse Saincheaptha go huathoibríoch"
+
+#: library/plugin-settings.php:266
+msgid "v2 (I&rsquo;m not a robot)"
+msgstr "v2 (I & rsquo; m ní róbat)"
+
+#: library/plugin-settings.php:270
+msgid "v3 (Hidden reCaptcha)"
+msgstr "v3 (ReCaptcha i bhfolach)"
+
+#: library/plugin-settings.php:298 library/plugin-settings.php:330
+#: library/plugin-settings.php:363 library/plugin-settings.php:395
+msgid "Enable and require"
+msgstr "Cumasaigh agus éilíonn"
+
+#: library/plugin-settings.php:299 library/plugin-settings.php:331
+msgid "Enable but do not require"
+msgstr "Cumasaigh ach ní gá"
+
+#: library/plugin-settings.php:300 library/plugin-settings.php:332
+#: library/plugin-settings.php:364 library/plugin-settings.php:396
+msgid "Disable this field"
+msgstr "Díchumasaigh an réimse seo"
+
+#: library/plugin-settings.php:335 library/plugin-settings.php:367
+#: library/plugin-settings.php:399 library/plugin-settings.php:431
+msgid "(Visit"
+msgstr "(Cuairt"
+
+#: library/plugin-settings.php:336 library/plugin-settings.php:368
+#: library/plugin-settings.php:400 library/plugin-settings.php:432
+msgid "to configure options)"
+msgstr "chun roghanna a chumrú)"
+
+#: library/plugin-settings.php:351 library/plugin-settings.php:368
+#: library/plugin-settings.php:1432 library/plugin-settings.php:1437
+msgid "Challenge Question"
+msgstr "Ceist Dúshlán"
+
+#: library/plugin-settings.php:383 library/plugin-settings.php:400
+#: library/plugin-settings.php:1454
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:415
+msgid "Post Images"
+msgstr "Íomhánna Poist"
+
+#: library/plugin-settings.php:427
+msgid "Enable"
+msgstr "Cumasaigh"
+
+#: library/plugin-settings.php:428
+msgid "Disable"
+msgstr "Díchumasaithe"
+
+#: library/plugin-settings.php:432 library/plugin-settings.php:1522
+msgid "Image Uploads"
+msgstr "Uaslódáil Íomhá"
+
+#: library/plugin-settings.php:512
+msgid "Draft"
+msgstr "Dréacht"
+
+#: library/plugin-settings.php:513
+msgid "Pending (default)"
+msgstr "Ar feitheamh (réamhshocraithe)"
+
+#: library/plugin-settings.php:514
+msgid "Publish immediately"
+msgstr "Foilsigh láithreach"
+
+#: library/plugin-settings.php:515
+msgid "Publish after 1 approved post"
+msgstr "Foilsigh tar éis 1 phost ceadaithe"
+
+#: library/plugin-settings.php:516
+msgid "Publish after "
+msgstr "Foilsigh tar éis "
+
+#: library/plugin-settings.php:516
+msgid " approved posts"
+msgstr " poist cheadaithe"
+
+#: library/plugin-settings.php:544
+msgid "Select categories to display in the Category field."
+msgstr "Roghnaigh catagóirí le taispeáint sa réimse Catagóire."
+
+#: library/plugin-settings.php:784
+msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
+msgstr "Tharla earráid. Cinntigh le do thoil gur chuir tú teideal, roinnt ábhar leis, agus nach bhfuil ach íomhánna uaslódáilte agat."
+
+#: library/plugin-settings.php:798
+msgid "Please select your image(s) to upload."
+msgstr "Roghnaigh d’íomhá (í) le huaslódáil."
+
+#: library/plugin-settings.php:804
+msgid "Success! Thank you for your submission."
+msgstr "Rath! Go raibh maith agat as d’aighneacht."
+
+#: library/plugin-settings.php:832
+msgid "Email"
+msgstr "Ríomhphost"
+
+#: library/plugin-settings.php:833
+msgid "URL"
+msgstr "URL"
+
+#: library/plugin-settings.php:1118
+msgid "Toggle all panels"
+msgstr "Tog gach painéal"
+
+#: library/plugin-settings.php:1127
+msgid "We need your support!"
+msgstr "Teastaíonn do thacaíocht uainn!"
+
+#: library/plugin-settings.php:1131
+msgid "Make a donation via PayPal"
+msgstr "Tabhair síntiús trí PayPal"
+
+#: library/plugin-settings.php:1131
+msgid "make a donation"
+msgstr "síntiús a dhéanamh"
+
+#: library/plugin-settings.php:1131
+msgid "and/or"
+msgstr "agus / nó"
+
+#: library/plugin-settings.php:1132
+msgid "Rate and review at the Plugin Directory"
+msgstr "Ráta agus athbhreithniú ag an Eolaire Breiseán"
+
+#: library/plugin-settings.php:1133
+msgid "give this plugin a 5-star rating"
+msgstr "tabhair rátáil 5 réalta don bhreiseán seo"
+
+#: library/plugin-settings.php:1137
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "Cumasaíonn do thacaíocht fhlaithiúil forbairt leanúnach a dhéanamh ar an mbreiseán saor in aisce seo. Go raibh maith agat!"
+
+#: library/plugin-settings.php:1142
+msgid "Check this box if you have shown support"
+msgstr "Seiceáil an bosca seo má léirigh tú tacaíocht"
+
+#: library/plugin-settings.php:1151
+msgid "Overview"
+msgstr "Forbhreathnú"
+
+#: library/plugin-settings.php:1155
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "cuireann sé ar chumas do chuairteoirí poist a chur isteach agus íomhánna a uaslódáil ó cheann tosaigh do shuíomh. "
+
+#: library/plugin-settings.php:1156
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "Le haghaidh ardfheidhmiúlacht agus foirmeacha neamhtheoranta, féach ar"
+
+#: library/plugin-settings.php:1156 library/plugin-settings.php:1580
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-settings.php:1157
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "& mdash; an réiteach deiridh ar ábhar a ghineann úsáideoir."
+
+#: library/plugin-settings.php:1161 library/plugin-settings.php:1178
+msgid "Plugin Settings"
+msgstr "Socruithe Breiseán"
+
+#: library/plugin-settings.php:1162
+msgid "Display the form"
+msgstr "Taispeáin an fhoirm"
+
+#: library/plugin-settings.php:1166
+msgid "If you like this plugin, please"
+msgstr "Más maith leat an breiseán seo, le do thoil"
+
+#: library/plugin-settings.php:1167
+msgid "THANK YOU for your support!"
+msgstr "Go raibh maith agat as do chuid tacaíochta!"
+
+#: library/plugin-settings.php:1167
+msgid "give it a 5-star rating"
+msgstr "rátáil 5 réalta a thabhairt dó"
+
+#: library/plugin-settings.php:1171
+msgid "Unlimited front-end forms"
+msgstr "Foirmeacha tosaigh neamhtheoranta"
+
+#: library/plugin-settings.php:1171
+msgid "Get USP Pro"
+msgstr "Faigh USP Pro"
+
+#: library/plugin-settings.php:1181
+msgid "Configure your settings for User Submitted Posts."
+msgstr "Cumraigh do chuid socruithe le haghaidh Poist a Cuireadh isteach le hÚsáideoirí."
+
+#: library/plugin-settings.php:1183
+msgid "Form Fields"
+msgstr "Réimsí Foirm"
+
+#: library/plugin-settings.php:1189
+msgid "User Name"
+msgstr "Ainm Úsáideora"
+
+#: library/plugin-settings.php:1190
+msgid "User Email"
+msgstr "Ríomhphost Úsáideora"
+
+#: library/plugin-settings.php:1191
+msgid "User URL"
+msgstr "URL úsáideora"
+
+#: library/plugin-settings.php:1206
+msgid "General Settings"
+msgstr "Socruithe Ginearálta"
+
+#: library/plugin-settings.php:1208
+msgid "Note that the default settings work fine for most cases."
+msgstr "Tabhair faoi deara go n-oibríonn na socruithe réamhshocraithe go breá i bhformhór na gcásanna."
+
+#: library/plugin-settings.php:1213
+msgid "Form Style"
+msgstr "Stíl Fhoirm"
+
+#: library/plugin-settings.php:1218
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "Leis an rogha seo, is féidir leat teimpléid réamhshocraithe an bhreiseáin & rsquo; s a chóipeáil:"
+
+#: library/plugin-settings.php:1223
+msgid "..and upload them into a directory named"
+msgstr "..agus uaslódáil iad i eolaire darb ainm"
+
+#: library/plugin-settings.php:1223
+msgid "in your theme:"
+msgstr "i do théama:"
+
+#: library/plugin-settings.php:1229
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "Cuirfidh sé sin ar do chumas an fhoirm agus na stíleanna a shaincheapadh de réir mar is mian leat. Le haghaidh tuilleadh faisnéise, féach ar an gcuid \"Foirm Aighneachta Saincheaptha\" sa"
+
+#: library/plugin-settings.php:1230
+msgid "Installation Docs"
+msgstr "Docs Suiteála"
+
+#: library/plugin-settings.php:1231
+msgid "FYI: here is a"
+msgstr "FYI: seo a"
+
+#: library/plugin-settings.php:1231
+msgid "list of USP CSS selectors"
+msgstr "liosta de roghnóirí CSS USP"
+
+#: library/plugin-settings.php:1237
+msgid "Include JavaScript"
+msgstr "Cuir JavaScript san áireamh"
+
+#: library/plugin-settings.php:1239
+msgid "Check this box if you want to include the external JavaScript files (recommended)"
+msgstr "Seiceáil an bosca seo más mian leat na comhaid sheachtracha JavaScript (molta) a áireamh"
+
+#: library/plugin-settings.php:1242
+msgid "Targeted Loading"
+msgstr "Luchtú Spriocdhírithe"
+
+#: library/plugin-settings.php:1244
+msgid "By default, CSS &amp; JavaScript assets are loaded on every page. Here you may specify the URL(s) of the USP form to load assets only on that page. Note: leave blank to load on all pages. Use commas to separate multiple URLs."
+msgstr "De réir réamhshocraithe, CSS & amp; Tá sócmhainní JavaScript luchtaithe ar gach leathanach. Is féidir leat URL (anna) na foirme USP a shonrú chun sócmhainní a luchtú ar an leathanach sin amháin. Nóta: fág bán le luchtú ar gach leathanach. Úsáid camóga chun URLanna iolracha a scaradh."
+
+#: library/plugin-settings.php:1247
+msgid "Post Type"
+msgstr "Cineál Poist"
+
+#: library/plugin-settings.php:1250
+msgid "Submit posts as WP Posts or Pages"
+msgstr "Cuir isteach poist mar Phoist nó Leathanaigh WP"
+
+#: library/plugin-settings.php:1254
+msgid "Post Status"
+msgstr "Stádas Poist"
+
+#: library/plugin-settings.php:1257
+msgid "Post Status for submitted posts"
+msgstr "Stádas Poist do phoist a cuireadh isteach"
+
+#: library/plugin-settings.php:1261
+msgid "Redirect URL"
+msgstr "URL a atreorú"
+
+#: library/plugin-settings.php:1263
+msgid "Specify a URL to redirect the user after post submission (leave blank to redirect back to current page)"
+msgstr "Sonraigh URL chun an t-úsáideoir a atreorú tar éis é a chur isteach (fág bán chun é a atreorú ar ais go dtí an leathanach reatha)"
+
+#: library/plugin-settings.php:1266
+msgid "Success Message"
+msgstr "Teachtaireacht Rathúlachta"
+
+#: library/plugin-settings.php:1268
+msgid "Success message that is displayed if post submission is successful (basic markup is allowed)"
+msgstr "Teachtaireacht rathúlachta a thaispeántar má éiríonn leis an aighneacht (ceadaítear marcáil bhunúsach)"
+
+#: library/plugin-settings.php:1271
+msgid "Error Message"
+msgstr "Teachtaireacht Earráide"
+
+#: library/plugin-settings.php:1273
+msgid "General error message that is displayed if post submission fails (basic markup is allowed)"
+msgstr "Teachtaireacht earráide ginearálta a thaispeántar má theipeann ar iar-aighneacht (ceadaítear marcáil bhunúsach)"
+
+#: library/plugin-settings.php:1276
+msgid "Custom Content"
+msgstr "Ábhar Saincheaptha"
+
+#: library/plugin-settings.php:1278
+msgid "Custom text/markup to be included before the submission form (leave blank to disable)"
+msgstr "Téacs / marcmharc saincheaptha le háireamh roimh an bhfoirm iarratais (fág bán chun é a dhíchumasú)"
+
+#: library/plugin-settings.php:1281
+msgid "Rich Text Editor"
+msgstr "Eagarthóir Téacs Saibhir"
+
+#: library/plugin-settings.php:1283
+msgid "Check this box if you want to enable RTE/Visual Editor for the Post Content field"
+msgstr "Seiceáil an bosca seo más mian leat RTE / Eagarthóir Amhairc a chumasú don réimse Ábhar an Phoist"
+
+#: library/plugin-settings.php:1286
+msgid "Unique Titles"
+msgstr "Teidil Uathúla"
+
+#: library/plugin-settings.php:1288
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)"
+msgstr "A éileamh go mbeidh teidil poist a chuirtear isteach uathúil (úsáideach chun poist iolracha / dúblacha a chuirtear isteach a chosc)"
+
+#: library/plugin-settings.php:1291
+msgid "Disable Required"
+msgstr "Díchumasaithe Riachtanach"
+
+#: library/plugin-settings.php:1293
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)"
+msgstr "Díchumasaigh na tréithe riachtanacha go léir ar réimsí foirmeacha réamhshocraithe (úsáideach chun teachtaireachtaí earráide a fabhtcheartú)"
+
+#: library/plugin-settings.php:1296
+msgid "Enable Shortcodes"
+msgstr "Cumasaigh aicearraí"
+
+#: library/plugin-settings.php:1298
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "Cumasaigh aicearraí i ngiuirléidí. De réir réamhshocraithe, ní chumasaíonn WordPress aicearraí i ngiuirléidí. "
+
+#: library/plugin-settings.php:1299
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "Cumasaíonn an socrú seo aon aicearra / gach aicearra i ngiuirléidí (fiú aicearraí ó bhreiseáin eile)."
+
+#: library/plugin-settings.php:1304
+msgid "Privacy"
+msgstr "Príobháideacht"
+
+#: library/plugin-settings.php:1309
+msgid "Disable IP Tracking"
+msgstr "Rianú IP a dhíchumasú"
+
+#: library/plugin-settings.php:1311
+msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
+msgstr "De réir réamhshocraithe déanann USP an seoladh IP a thaifeadadh le gach post a chuirtear isteach. Seiceáil an bosca seo chun gach rianú IP a dhíchumasú."
+
+#: library/plugin-settings.php:1315
+msgid "Display Checkbox"
+msgstr "Bosca Seiceála Taispeáin"
+
+#: library/plugin-settings.php:1317
+msgid "Display custom checkbox on your form (useful for GDPR, agree to terms, etc.)"
+msgstr "Taispeáin bosca seiceála saincheaptha ar d’fhoirm (úsáideach do GDPR, aontaím le téarmaí, srl.)"
+
+#: library/plugin-settings.php:1320
+msgid "Checkbox Name"
+msgstr "Ainm an Bhosca Seiceála"
+
+#: library/plugin-settings.php:1322 library/plugin-settings.php:1422
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "Ná húsáid ach alfa-uimhriúla, íochtair agus dashes. Mura bhfuil tú cinnte, bain úsáid as an ainm réamhshocraithe:"
+
+#: library/plugin-settings.php:1325
+msgid "Checkbox Error"
+msgstr "Earráid Bosca Seiceála"
+
+#: library/plugin-settings.php:1327
+msgid "Error message displayed if user does not check the box"
+msgstr "Teachtaireacht earráide ar taispeáint mura seiceálann an t-úsáideoir an bosca"
+
+#: library/plugin-settings.php:1330
+msgid "Checkbox Text"
+msgstr "Téacs an bhosca seiceála"
+
+#: library/plugin-settings.php:1332
+msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
+msgstr "Téacs ar taispeáint in aice leis an mbosca seiceála. Leid: bain úsáid as lúibíní cuartha chun lúibíní uillinne a aschur, mar shampla:"
+
+#: library/plugin-settings.php:1337
+msgid "Categories &amp; Tags"
+msgstr "Catagóirí & amp; Clibeanna"
+
+#: library/plugin-settings.php:1342
+msgid "Categories"
+msgstr "Catagóirí"
+
+#: library/plugin-settings.php:1345
+msgid "Click to view/select categories"
+msgstr "Cliceáil chun catagóirí a fheiceáil / a roghnú"
+
+#: library/plugin-settings.php:1353
+msgid "Multiple Categories"
+msgstr "Catagóirí Il"
+
+#: library/plugin-settings.php:1355
+msgid "Enable users to select multiple categories."
+msgstr "Cuir ar chumas úsáideoirí ilchatagóirí a roghnú."
+
+#: library/plugin-settings.php:1358
+msgid "Hidden/Default Category"
+msgstr "Catagóir Hidden / Réamhshocraithe"
+
+#: library/plugin-settings.php:1360
+msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
+msgstr "Úsáid réimse i bhfolach don chatagóir poist. Folaíonn sé seo réimse na gcatagóirí agus socraíonn sé a luach tríd an gcéad rogha eile."
+
+#: library/plugin-settings.php:1363
+msgid "Category ID for Hidden Field"
+msgstr "Aitheantas Catagóir do Réimse Hidden"
+
+#: library/plugin-settings.php:1365
+msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
+msgstr "Sonraigh ID (í) catagóir le húsáid le haghaidh & ldquo; Catagóir Hidden / Réamhshocraithe & rdquo; (IDanna iolracha ar leithligh le camóga)"
+
+#: library/plugin-settings.php:1368
+msgid "Use Existing Tags"
+msgstr "Úsáid Clibeanna atá ann cheana"
+
+#: library/plugin-settings.php:1370
+msgid "Check this box to display a select/dropdown menu of existing tags (valid when Tag field is displayed)"
+msgstr "Seiceáil an bosca seo chun roghchlár roghnaithe / anuas de chlibeanna atá ann cheana a thaispeáint (bailí nuair a thaispeántar réimse Clibeanna)"
+
+#: library/plugin-settings.php:1375
+msgid "Users"
+msgstr "Úsáideoirí"
+
+#: library/plugin-settings.php:1380
+msgid "Assigned Author"
+msgstr "Údar Sannta"
+
+#: library/plugin-settings.php:1383
+msgid "Specify the user that should be assigned as author for submitted posts"
+msgstr "Sonraigh an t-úsáideoir ba chóir a shannadh mar údar do phoist a cuireadh isteach"
+
+#: library/plugin-settings.php:1387
+msgid "Registered Username"
+msgstr "Ainm Úsáideora Cláraithe"
+
+#: library/plugin-settings.php:1389
+msgid "Use the user&rsquo;s registered username for the Name field (valid when the user submitting the form is logged in to WordPress)"
+msgstr "Úsáid ainm úsáideora cláraithe an úsáideora & rsquo; s don réimse Ainm (bailí nuair a bhíonn an t-úsáideoir a chuireann an fhoirm isteach logáilte isteach i WordPress)"
+
+#: library/plugin-settings.php:1392
+msgid "Registered Email"
+msgstr "Ríomhphost Cláraithe"
+
+#: library/plugin-settings.php:1394
+msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user submitting the form is logged in to WordPress)"
+msgstr "Úsáid an ríomhphost cláraithe úsáideora & rsquo; s mar luach an réimse Ríomhphoist (bailí nuair a bhíonn an t-úsáideoir a chuireann an fhoirm isteach logáilte isteach i WordPress)"
+
+#: library/plugin-settings.php:1397
+msgid "User Profile URL"
+msgstr "URL Próifíl Úsáideora"
+
+#: library/plugin-settings.php:1399
+msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user submitting the form is logged in to WordPress)"
+msgstr "Úsáid URL Próifíl an úsáideora & rsquo; s mar luach an réimse URL (bailí nuair a bhíonn an t-úsáideoir a chuireann an fhoirm isteach logáilte isteach i WordPress)"
+
+#: library/plugin-settings.php:1402
+msgid "Require User Login"
+msgstr "Logáil Úsáideora a éileamh"
+
+#: library/plugin-settings.php:1404
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "A cheangal ar úsáideoirí a bheith logáilte isteach i WordPress chun an fhoirm a fheiceáil / a chur isteach"
+
+#: library/plugin-settings.php:1407
+msgid "Disable Replace Author"
+msgstr "Díchumasaigh Údar"
+
+#: library/plugin-settings.php:1409
+msgid "Do not replace post author with submitted user name"
+msgstr "Ná cuir ainm úsáideora a cuireadh isteach in ionad údar an phoist"
+
+#: library/plugin-settings.php:1415
+msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
+msgstr "Is féidir leat an t-ainm agus an lipéad a úsáideann an Réimse Saincheaptha a athrú anseo. Is féidir leat an réimse seo a chumasú tríd an socrú Form Fields, thuas."
+
+#: library/plugin-settings.php:1420
+msgid "Custom Field Name"
+msgstr "Ainm Réimse Saincheaptha"
+
+#: library/plugin-settings.php:1425
+msgid "Custom Field Label"
+msgstr "Lipéad Réimse Saincheaptha"
+
+#: library/plugin-settings.php:1427
+msgid "This will be displayed as the field label on the form. Default: Custom Field"
+msgstr "Taispeánfar é seo mar an lipéad allamuigh ar an bhfoirm. Réamhshocrú: Réimse Saincheaptha"
+
+#: library/plugin-settings.php:1439
+msgid "To prevent spam, enter a question that users must answer before submitting the form"
+msgstr "Chun spam a chosc, cuir isteach ceist nach mór d’úsáideoirí a fhreagairt sula gcuireann siad an fhoirm isteach"
+
+#: library/plugin-settings.php:1442
+msgid "Challenge Response"
+msgstr "Freagra Dúshlán"
+
+#: library/plugin-settings.php:1444
+msgid "Enter the *only* correct answer to the challenge question"
+msgstr "Iontráil an * ceart * freagra ceart ar cheist an dúshláin"
+
+#: library/plugin-settings.php:1447
+msgid "Case-sensitivity"
+msgstr "Cás-íogaireacht"
+
+#: library/plugin-settings.php:1449
+msgid "Check this box if you want the challenge response to be case-sensitive"
+msgstr "Seiceáil an bosca seo más mian leat go mbeadh an freagra dúshláin cás-íogair"
+
+#: library/plugin-settings.php:1455
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr "Chun Google reCAPTCHA a chumasú, iontráil do chuid eochracha poiblí agus príobháideacha."
+
+#: library/plugin-settings.php:1460
+msgid "Public Key"
+msgstr "Eochair Phoiblí"
+
+#: library/plugin-settings.php:1462
+msgid "Enter your Public Key"
+msgstr "Iontráil d'Eochair Phoiblí"
+
+#: library/plugin-settings.php:1465
+msgid "Private Key"
+msgstr "Eochair Phríobháideach"
+
+#: library/plugin-settings.php:1467
+msgid "Enter your Private Key"
+msgstr "Iontráil d'Eochair Phríobháideach"
+
+#: library/plugin-settings.php:1470
+msgid "reCaptcha Version"
+msgstr "Leagan reCaptcha"
+
+#: library/plugin-settings.php:1473
+msgid "Choose reCaptcha version"
+msgstr "Roghnaigh leagan reCaptcha"
+
+#: library/plugin-settings.php:1479
+msgid "Email Alerts"
+msgstr "Foláirimh Ríomhphoist"
+
+#: library/plugin-settings.php:1484
+msgid "Receive Email Alert"
+msgstr "Faigh Foláireamh Ríomhphoist"
+
+#: library/plugin-settings.php:1486
+msgid "Check this box if you want to be notified via email for new post submissions"
+msgstr "Seiceáil an bosca seo más mian leat go gcuirfí in iúl duit trí ríomhphost le haghaidh aighneachtaí nua poist"
+
+#: library/plugin-settings.php:1489
+msgid "Enable HTML Format"
+msgstr "Cumasaigh Formáid HTML"
+
+#: library/plugin-settings.php:1491
+msgid "Check this box to enable HTML format for email alerts"
+msgstr "Seiceáil an bosca seo chun formáid HTML a chumasú le haghaidh foláirimh ríomhphoist"
+
+#: library/plugin-settings.php:1494
+msgid "Email Address for Alerts"
+msgstr "Seoladh Ríomhphoist le haghaidh Foláirimh"
+
+#: library/plugin-settings.php:1496
+msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
+msgstr "Má sheiceáil tú an bosca chun foláirimh ríomhphoist a fháil, tabhair le fios anseo an seoladh / na seoltaí ar cheart na ríomhphoist a sheoladh chucu."
+
+#: library/plugin-settings.php:1497
+msgid "Separate multiple addresses with commas."
+msgstr "Seoltaí iolracha ar leithligh le camóga."
+
+#: library/plugin-settings.php:1500
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "Ríomhphost & ldquo; Ó & rdquo; Seoladh"
+
+#: library/plugin-settings.php:1502
+msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
+msgstr "Anseo is féidir leat an seoladh / na seoltaí a úsáidtear don & ldquo; Ó & rdquo a shaincheapadh; ceanntásc (féach Ceisteanna Coitianta breiseán le haghaidh faisnéise). "
+
+#: library/plugin-settings.php:1503
+msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
+msgstr "Má shonraítear seoltaí iolracha sa suíomh roimhe seo, cuir líon comhionann de & ldquo; Ó & rdquo san áireamh; seoltaí don socrú seo (san ord céanna)."
+
+#: library/plugin-settings.php:1506
+msgid "Email Alert Subject"
+msgstr "Ábhar Foláirimh Ríomhphoist"
+
+#: library/plugin-settings.php:1508
+msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
+msgstr "Líne ábhair le haghaidh foláirimh ríomhphoist. Fág bán chun an líne ábhair réamhshocraithe a úsáid. Nóta: is féidir leat na hathróga seo a leanas a úsáid: "
+
+#: library/plugin-settings.php:1513
+msgid "Email Alert Message"
+msgstr "Teachtaireacht Foláirimh Ríomhphoist"
+
+#: library/plugin-settings.php:1515
+msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
+msgstr "Teachtaireacht le haghaidh foláirimh ríomhphoist. Fág bán chun an teachtaireacht réamhshocraithe a úsáid. Nóta: is féidir leat na hathróga seo a leanas a úsáid: "
+
+#: library/plugin-settings.php:1527
+msgid "Featured Image"
+msgstr "Íomhá Réadmhaoin"
+
+#: library/plugin-settings.php:1529
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
+msgstr "Socraigh íomhánna a cuireadh isteach mar Íomhánna Réadmhaoin. Teastaíonn tacaíocht téama le haghaidh Íomhánna Réadmhaoin (aka Mionsamhlacha Poist)"
+
+#: library/plugin-settings.php:1532
+msgid "Upload Message"
+msgstr "Uaslódáil Teachtaireacht"
+
+#: library/plugin-settings.php:1534
+msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
+msgstr "Teachtaireacht atá le feiceáil in aice leis an réimse uaslódála. Úsáideach chun do threoirlínte / beartas uaslódáil / srl a lua. Marcáil bhunúsach ceadaithe."
+
+#: library/plugin-settings.php:1537
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "& ldquo; Cuir íomhá eile & rdquo leis; nasc"
+
+#: library/plugin-settings.php:1539
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "Marcáil saincheaptha don & ldquo; Cuir íomhá eile & rdquo leis; nasc. Fág bán chun an marcáil réamhshocraithe (molta) a úsáid."
+
+#: library/plugin-settings.php:1542
+msgid "Minimum number of images"
+msgstr "Líon íosta íomhánna"
+
+#: library/plugin-settings.php:1545
+msgid "Specify the minimum number of images"
+msgstr "Sonraigh an líon íosta íomhánna"
+
+#: library/plugin-settings.php:1549
+msgid "Maximum number of images"
+msgstr "Líon uasta íomhánna"
+
+#: library/plugin-settings.php:1552
+msgid "Specify the maximum number of images"
+msgstr "Sonraigh an líon uasta íomhánna"
+
+#: library/plugin-settings.php:1556
+msgid "Minimum image width"
+msgstr "Leithead íomhá íosta"
+
+#: library/plugin-settings.php:1558
+msgid "Specify a minimum width (in pixels) for uploaded images"
+msgstr "Sonraigh íosmhéid (i bpicteilíní) le haghaidh íomhánna uaslódáilte"
+
+#: library/plugin-settings.php:1561
+msgid "Minimum image height"
+msgstr "Airde íosta íomhá"
+
+#: library/plugin-settings.php:1563
+msgid "Specify a minimum height (in pixels) for uploaded images"
+msgstr "Sonraigh íosairde (i bpicteilíní) le haghaidh íomhánna uaslódáilte"
+
+#: library/plugin-settings.php:1566
+msgid "Maximum image width"
+msgstr "Leithead íomhá uasta"
+
+#: library/plugin-settings.php:1568
+msgid "Specify a maximum width (in pixels) for uploaded images"
+msgstr "Sonraigh leithead uasta (i bpicteilíní) le haghaidh íomhánna uaslódáilte"
+
+#: library/plugin-settings.php:1571
+msgid "Maximum image height"
+msgstr "Airde íomhá uasta"
+
+#: library/plugin-settings.php:1573
+msgid "Specify a maximum height (in pixels) for uploaded images"
+msgstr "Sonraigh uasairde (i bpicteilíní) le haghaidh íomhánna uaslódáilte"
+
+#: library/plugin-settings.php:1576
+msgid "More Options"
+msgstr "Tuilleadh Roghanna"
+
+#: library/plugin-settings.php:1579
+msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "Le haghaidh tuilleadh roghanna, cosúil leis an gcumas cineálacha comhaid eile a uaslódáil (cosúil le PDF, Word, Zip, físeáin, agus go leor eile), féach ar"
+
+#: library/plugin-settings.php:1580
+msgid "Go Pro!"
+msgstr "Téigh Pro!"
+
+#: library/plugin-settings.php:1587
+msgid "Auto-Display Content"
+msgstr "Ábhar Auto-Taispeáin"
+
+#: library/plugin-settings.php:1592
+msgid "Auto-Display Images"
+msgstr "Íomhánna Auto-Taispeáin"
+
+#: library/plugin-settings.php:1594
+msgid "Automatically display user-submitted images:"
+msgstr "Íomhánna a chuirtear isteach ag an úsáideoir a thaispeáint go huathoibríoch:"
+
+#: library/plugin-settings.php:1599
+msgid "Image Markup"
+msgstr "Markup Íomhá"
+
+#: library/plugin-settings.php:1601
+msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
+msgstr "Marcáil le húsáid do gach íomhá a chuirtear isteach (nuair a bhíonn taispeáint uathoibríoch cumasaithe). Is féidir é a úsáid"
+
+#: library/plugin-settings.php:1603 library/plugin-settings.php:1616
+#: library/plugin-settings.php:1629 library/plugin-settings.php:1642
+msgid "and"
+msgstr "agus"
+
+#: library/plugin-settings.php:1606
+msgid "Auto-Display Email"
+msgstr "Ríomhphost Auto-Taispeáin"
+
+#: library/plugin-settings.php:1608
+msgid "Automatically display user-submitted email:"
+msgstr "R-phost a chuirtear isteach ag an úsáideoir a thaispeáint go huathoibríoch:"
+
+#: library/plugin-settings.php:1613
+msgid "Email Markup"
+msgstr "Ríomhphost Markup"
+
+#: library/plugin-settings.php:1615
+msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
+msgstr "Marcáil le húsáid don seoladh ríomhphoist a cuireadh isteach (nuair a chumasófar taispeáint uathoibríoch). Is féidir é a úsáid"
+
+#: library/plugin-settings.php:1619
+msgid "Auto-Display URL"
+msgstr "URL Auto-Taispeáin"
+
+#: library/plugin-settings.php:1621
+msgid "Automatically display user-submitted URL:"
+msgstr "URL a chuirtear isteach ag an úsáideoir a thaispeáint go huathoibríoch:"
+
+#: library/plugin-settings.php:1626
+msgid "URL Markup"
+msgstr "URL Markup"
+
+#: library/plugin-settings.php:1628
+msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr "Marcáil le húsáid don URL a cuireadh isteach (nuair a chumasófar taispeáint uathoibríoch). Is féidir é a úsáid"
+
+#: library/plugin-settings.php:1632
+msgid "Auto-Display Custom Field"
+msgstr "Réimse Saincheaptha Auto-Taispeáin"
+
+#: library/plugin-settings.php:1634
+msgid "Automatically display user-submitted Custom Field:"
+msgstr "Réimse Saincheaptha a chuirtear isteach ag an úsáideoir a thaispeáint go huathoibríoch:"
+
+#: library/plugin-settings.php:1639
+msgid "Custom Field Markup"
+msgstr "Marcáil Réimse Saincheaptha"
+
+#: library/plugin-settings.php:1641
+msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
+msgstr "Marcáil le húsáid don Réimse Saincheaptha a cuireadh isteach (nuair a chumasófar taispeáint uathoibríoch). Is féidir é a úsáid"
+
+#: library/plugin-settings.php:1647 library/plugin-settings.php:1759
+msgid "Save Settings"
+msgstr "Sábháil Socruithe"
+
+#: library/plugin-settings.php:1652
+msgid "Display the Form"
+msgstr "Taispeáin an Fhoirm"
+
+#: library/plugin-settings.php:1655
+msgid "Post-Submit Form"
+msgstr "Foirm Iar-Cuir isteach"
+
+#: library/plugin-settings.php:1656
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "Cuireann USP ar do chumas foirm iar-aighneachta a thaispeáint áit ar bith ar do shuíomh."
+
+#: library/plugin-settings.php:1657 library/plugin-settings.php:1666
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "Úsáid an aicearra chun an fhoirm a thaispeáint ar aon WP Post nó Leathanach:"
+
+#: library/plugin-settings.php:1660 library/plugin-settings.php:1669
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "Nó, bain úsáid as an gclib teimpléid chun an fhoirm a thaispeáint áit ar bith i do theimpléad téama:"
+
+#: library/plugin-settings.php:1664
+msgid "Login/Register Form"
+msgstr "Foirm Logála / Cláraigh"
+
+#: library/plugin-settings.php:1665
+msgid "You also can display a form that enables users to log in, register, or reset their password."
+msgstr "Is féidir leat foirm a thaispeáint freisin a chuireann ar chumas úsáideoirí a bhfocal faire a logáil isteach, a chlárú nó a athshocrú."
+
+#: library/plugin-settings.php:1673
+msgid "Display Submitted Posts"
+msgstr "Poist a chuirtear isteach a thaispeáint"
+
+#: library/plugin-settings.php:1674
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "Úsáid an aicearra seo chun liosta de na poist a cuireadh isteach a thaispeáint ar aon WP Post nó Leathanach:"
+
+#: library/plugin-settings.php:1677
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "Nó, bain úsáid as an gclib teimpléid chun liosta de na poist a cuireadh isteach a thaispeáint áit ar bith i do theimpléad téama:"
+
+#: library/plugin-settings.php:1680
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "Seo roinnt samplaí a thaispeánann conas an aicearra seo a chumrú:"
+
+#: library/plugin-settings.php:1688
+msgid "Display Image Gallery"
+msgstr "Taispeántas Gailearaí Íomhá"
+
+#: library/plugin-settings.php:1689
+msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
+msgstr "Úsáid an aicearra seo chun gailearaí d’íomhánna uaslódáilte a thaispeáint do gach post a chuirtear isteach:"
+
+#: library/plugin-settings.php:1692
+msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
+msgstr "Nó, bain úsáid as an gclib teimpléid chun gailearaí íomhá a thaispeáint áit ar bith i do theimpléad téama:"
+
+#: library/plugin-settings.php:1695
+msgid "You can customize using any of the follwing attributes:"
+msgstr "Is féidir leat aon cheann de na tréithe leantacha a shaincheapadh:"
+
+#: library/plugin-settings.php:1710
+msgid "Reset Form Button"
+msgstr "Cnaipe Foirm Athshocraigh"
+
+#: library/plugin-settings.php:1711
+msgid "This shortcode displays a link that resets the form to its original state:"
+msgstr "Taispeánann an aicearra seo nasc a athshocraíonn an fhoirm go dtí a staid bhunaidh:"
+
+#: library/plugin-settings.php:1714
+msgid "This shortcode accepts the following attributes:"
+msgstr "Glacann an aicearra seo na tréithe seo a leanas:"
+
+#: library/plugin-settings.php:1720
+msgid "Note that the url attribute accepts"
+msgstr "Tabhair faoi deara go nglacann an tréith url"
+
+#: library/plugin-settings.php:1720
+msgid "to get the current URL."
+msgstr "chun an URL reatha a fháil."
+
+#: library/plugin-settings.php:1723
+msgid "Access Control"
+msgstr "Rialú Rochtana"
+
+#: library/plugin-settings.php:1724
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "Soláthraíonn USP trí aicearra chun rochtain a rialú agus ábhar a shrianadh."
+
+#: library/plugin-settings.php:1725
+msgid "Display content only to users with a specific capability:"
+msgstr "Ábhar a thaispeáint d’úsáideoirí a bhfuil cumas sonrach acu amháin:"
+
+#: library/plugin-settings.php:1728
+msgid "Display content to logged-in users:"
+msgstr "Taispeáin ábhar d'úsáideoirí atá logáilte isteach:"
+
+#: library/plugin-settings.php:1731
+msgid "Display content to visitors only:"
+msgstr "Ábhar a thaispeáint do chuairteoirí amháin:"
+
+#: library/plugin-settings.php:1734
+msgid "Tip:"
+msgstr "Leid:"
+
+#: library/plugin-settings.php:1734
+msgid "to include markup in the deny message, you can use"
+msgstr "chun marcáil a áireamh sa teachtaireacht shéanadh, is féidir leat é a úsáid"
+
+#: library/plugin-settings.php:1734
+msgid "to output"
+msgstr "a aschur"
+
+#: library/plugin-settings.php:1737
+msgid "Example"
+msgstr "Sampla"
+
+#: library/plugin-settings.php:1738
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "Má tá an t-úsáideoir logáilte isteach, taispeáin an fhoirm iar-thíolactha; nó mura bhfuil an t-úsáideoir logáilte isteach, taispeáin an fhoirm logála isteach:"
+
+#: library/plugin-settings.php:1750
+msgid "Restore Defaults"
+msgstr "Athshocraigh Réamhshocruithe"
+
+#: library/plugin-settings.php:1753
+msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "Fág an rogha seo faoi mhíchumas chun do chuid socruithe a mheabhrú. Nó, chun dul ar aghaidh agus na roghanna réamhshocraithe breiseán a athbhunú: seiceáil an bosca, sábháil do chuid socruithe, agus ansin an breiseán a dhíghníomhachtú / athghníomhachtú."
+
+#: library/plugin-settings.php:1757
+msgid "Restore default options upon plugin deactivation/reactivation"
+msgstr "Athchóirigh na roghanna réamhshocraithe ar dhíghníomhachtú / athghníomhachtú breiseán"
+
+#: library/plugin-settings.php:1764
+msgid "Show Support"
+msgstr "Taispeáin Tacaíocht"
+
+#: library/plugin-settings.php:1773
+msgid "by"
+msgstr "le"
+
+#: library/plugin-settings.php:1774
+msgid "Jeff Starr on Twitter"
+msgstr "Jeff Starr ar Twitter"
+
+#: library/plugin-settings.php:1775
+msgid "Obsessive Web Design &amp; Development"
+msgstr "Dearadh Gréasáin Obsessive & amp; Forbairt"
+
+#: library/plugin-settings.php:1786
+msgid "Save Preference"
+msgstr "Sábháil Rogha"
+
+#: library/plugin-settings.php:1793
+msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
+msgstr "An bhfuil tú cinnte gur mhaith leat gach rogha réamhshocraithe a chur ar ais? (ní féidir an gníomh seo a scriosadh)"
+
+#: library/support-panel.php:55
+msgid "Perishable Press Books"
+msgstr "Preasleabhair meatacha"
+
+#: library/support-panel.php:56
+msgid "Plugin Planet"
+msgstr "Plugin Planet"
+
+#: library/support-panel.php:57
+msgid "Donate via PayPal"
+msgstr "Deonaigh trí PayPal"
+
+#: library/support-panel.php:59
+msgid "books"
+msgstr "leabhair"
+
+#: library/support-panel.php:60
+msgid "plugins"
+msgstr "breiseáin"
+
+#: library/support-panel.php:61
+msgid "donation"
+msgstr "síntiús"
+
+#: library/support-panel.php:63
+msgid "Thank you for using"
+msgstr "Go raibh maith agat as úsáid"
+
+#: library/support-panel.php:64
+msgid "Please show support by purchasing one of my"
+msgstr "Taispeáin tacaíocht le do thoil trí cheann de mo chuid a cheannach"
+
+#: library/support-panel.php:65
+msgid "or"
+msgstr "nó"
+
+#: library/support-panel.php:65
+msgid "or by making a"
+msgstr "nó trí"
+
+#: library/support-panel.php:66
+msgid "Your generous support helps future development of"
+msgstr "Cuidíonn do thacaíocht fhlaithiúil le forbairt sa todhchaí ar"
+
+#: library/support-panel.php:67
+msgid "and is greatly appreciated."
+msgstr "agus is mór againn é."
+
+#: library/support-panel.php:69
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "Cuidíonn aon síntiús mé liom leanúint leis an mbreiseán saor in aisce seo agus acmhainní uamhnach WordPress eile a fhorbairt."
+
+#. Description of the plugin
+#: 
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "Cuireann sé ar chumas do chuairteoirí poist agus íomhánna a chur isteach ó áit ar bith ar do shuíomh."
+
+#. URI of the plugin
+#: 
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+#: 
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#. Author URI of the plugin
+#: 
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+

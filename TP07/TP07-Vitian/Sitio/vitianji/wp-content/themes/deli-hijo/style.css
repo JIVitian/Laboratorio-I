@@ -1,0 +1,55 @@
+/*
+Theme Name: storefront hijo
+Template: storefront
+Description: storefront is a responsive, accessible, high-resolution theme
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stirefront-hijo
+*/
+
+.custom-logo{
+    width: 200px !important;
+}
+
+.custom-logo-link {
+    background-color: none !important;
+}
+
+.storefront-primary-navigation {
+    background-color: white !important;
+    background-color: lightpink !important;
+}
+
+.storefront-primary-navigation a{
+    background-color: lightpink !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.storefront-primary-navigation a:hover, .storefront-primary-navigation:focus{
+    background-color: white !important;
+    color: black !important;
+    transition: ease 0.5 !important;
+}
+
+.main-navigation ul.menu, .main-navigation ul.nav-menu{
+    height: 80% !important;
+}
+
+/***No se si funcionó esto***/
+.elementor-background-overlay {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.site-footer {
+    background-color: pink !important;
+}
+
+.site-footer a{
+    display: none !important;
+}
+
+footer {
+    background-color: pink !important;
+}
