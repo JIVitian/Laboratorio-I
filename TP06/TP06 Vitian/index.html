@@ -1,361 +1,317 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+    <!--METADATA-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Vitian, Jorge Iván">
-    <meta name="description" content="Página de mercancia de el Anime Neon Genesis Evangelion">
-    <link href="font/icomoon/style.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <title>Neon Genesis Evangelion</title>
-</head>
+    <meta name="author" content="Jorge Iván Vitian">
+    <meta name="description" content="Fanpage de Neon Genesis Evangelión">
+    
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
 
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--ICON-->
+    <link rel="stylesheet" href="icon/icomoon/style.css">
+
+    <!--FONTS-->
+
+    <!--TITULO-->
+    <title>NGEvangelion</title>
+</head>
 <body>
-    <header>
-        <a href="#contenedor-argumento" id="saltar">Saltar al contenido</a>
-        <figure>
-            <h1><a href="index.html"><img src="image/logo2.png" title="Neon Genesis Evangelion"
-                        alt="Logo de la serie"></a></h1>
+    <!-------------------------HEADER------------------------->
+    <header class="titulo">
+        <a id="salto" href="#argumento">saltar al contenido</a>
+        <figure class="titulo__contenedor">
+            <a class="titulo__link" href="#">
+                <img class="titulo__imagen" src="img/logo2.png" title="Volver a Inicio" alt="logo de la franquicia que dice 'Neon Genesis Evangelion'">
+            </a>
         </figure>
 
-        <!------------------Menu de Navegación------------------>
-        <section id="contenedor-menu">
-            <a href="#contenedor-menu" id="desplegar"><span class="icon-download"></span></a>
-            <a href="#" id="ocultar"><span class="icon-upload"></span></a>
-            <nav id="menu">
-                <ul id="contenedor-enlaces">
-                    <a href="#contenedor-argumento">
-                        <li>Inicio</li>
-                    </a>
-                    <a href="#contenedor-protagonistas">
-                        <li>Protagonistas</li>
-                    </a>
-                    <a href="#contenedor-temporadas">
-                        <li>Temporadas</li>
-                    </a>
-                    <a href="#contenedor-merchandising">
-                        <li>Merchandising</li>
-                    </a>
-                    <a href="#contenedor-login">
-                        <li>Subscríbete</li>
-                    </a>
+        <section id="menu__container">
+            <a id="show" href="#menu__container"><span class="icon-download"></span></a>
+            <a id="hide" href="#hide"><span class="icon-upload"></span></a>
+            
+            <nav class="menu">
+                <ul class="menu__ul">
+                    <a class="menu__a" href="#argumento"><li class="menu__li">Argumento</li></a>
+                    <a class="menu__a" href="#prota"><li class="menu__li">Protagonistas</li></a>
+                    <a class="menu__a" href="#temp"><li class="menu__li">Temporadas</li></a>
+                    <a class="menu__a" href="#merch"><li class="menu__li">Merchandising</li></a>
+                    <a class="menu__a" href="#login"><li class="menu__li">Suscríbete</li></a>
                 </ul>
             </nav>
         </section>
     </header>
-
+    
+    <!-------------------------ARGUMENTO------------------------->
     <main>
-        <!------------------Sección Inicio------------------>
-        <section id="contenedor-argumento">
-            <article>
-                <figure id="argumento-fig">
-                    <img id="argumento-img" src="image/fondo.jpg" alt="Los 3 pilotos de los EVAs">
+        <section>
+            <article id="argumento">
+                <h1>Argumento</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum natus hic illum animi velit ipsa corrupti ipsum qui, nemo perferendis? Expedita reprehenderit, deleniti ut culpa quam quas a veniam eius. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas sapiente quibusdam doloremque ex laborum fuga reiciendis, mollitia suscipit enim dicta asperiores a illum id sit eligendi recusandae beatae totam labore?</p>
+                <figure class="argumento__fig">
+                    <img src="img/fondO.jpg" class="argumento__img" alt="Imagen mostrando a todos los personajes de la serie">
                 </figure>
-                <!--Me parecio que justo para la fuente que maneja el titulo de esta serie, la fuente por defecto del navegador queda bien-->
-                <h2>Argumento</h2>
-                <p>Han pasado ya 15 años desde que se contactó en el 2000 con unos misteriosos seres conocidos como
-                    ángeles.
-                    Como consecuencia de esto, se produjo el llamado Segundo Impacto, un cataclismo a escala mundial
-                    causado por una explosión
-                    en la Antártida que redujo a la mitad la población humana en la Tierra. Para prevenir futuros
-                    ataques,
-                    la ONU estableció en Tokio-3 la organización NERV que ha ido desarrollando Evangelions, enormes
-                    criaturas biomecánicas pilotados
-                    por adolescentes que son lo único que puede parar a los ángeles.
-                    <br>
-                    Actualmente nos encontramos en 2015 centrándonos en un joven, Shinji Ikari.
-                    Con la esperanza de ganar el afecto de su padre, el dirigente de NERV,
-                    el adolescente acepta sus órdenes y decide pilotar la unidad 01 de los Evangelion (Eva-01) para
-                    acabar con el Tercer Ángel.
-                    Y a partir de ese momento, la vida de Shinji cambia para siempre al establecerse en la ciudad e
-                    intentar convertirse en un piloto de élite.</p>
             </article>
-        </section>
 
-        <!------------------Sección Protagonistas------------------>
-        <section id="contenedor-protagonistas">
-            <article>
-                <h2>Protagonistas</h2>
-                <table id="tabla-protas">
-                    <thead>
+            <!-------------------------PERSONAJES------------------------->
+            <article id="prota">
+                <table class="prota__tabla">
+                    <caption><h1>Protagonistas</h1></caption>
+                    <thead class="prota__head">
                         <tr>
                             <th id="col1" scope="col">Imagen</th>
                             <th id="col2" scope="col">Personaje</th>
-                            <th id="col3" scope="col">Actor</th>
+                            <th id="col3" scope="col">Seiyuu</th>
                             <th id="col4" scope="col">Ocupación</th>
                             <th id="col5" scope="col">Historia</th>
-                            <th id="col6" scope="col">Parentesco</th>
+                            <th id="col6" scope="col">Parentezco</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td headers="col1">
-                                <figure class="prota-fig">
-                                    <img class="prota-img" src="../image/shinji2.jpg" alt="Imagen de Ikari Shinji">
+                            <td headers="col1" class="prota__td">
+                                <figure class="prota__fig">
+                                    <img src="img/shinji.jpg" class="prota__img" alt="Shinji Ikari">
                                 </figure>
                             </td>
-                            <td headers="col2">Shinji Ikari</td>
-                            <td headers="col3">Megumi Ogata</td>
-                            <td headers="col4">Piloto de EVA 01</td>
-                            <td headers="col5" class="historia">Shinji Ikari, de 14 años, es el Tercer Niño, el protagonista principal de la serie y
+                            <td headers="col2" class="prota__td">Shinji Ikari</td>
+                            <td headers="col3" class="prota__td">Megumi Ogata</td>
+                            <td headers="col4" class="prota__td">Piloto de EVA 01</td>
+                            <td headers="col5" class="prota__td">Shinji Ikari, de 14 años, es el Tercer Niño, el protagonista principal de la serie y
                                 piloto designado del Evangelion Unidad 01.
                                 fue abandonado cuando era pequeño por su padre, Gendō Ikari, quien luego lo convocaria a
                                 Tokyo-3 para pilotar el EVA durante los
-                                eventos de la serie, se muda junto a Misato.
-                            </td>
-                            <td headers="col6">Hijo de Gendo Ikari y Yui Ikari</td>
+                                eventos de la serie, se muda junto a Misato.</td>
+                            <td headers="col6" class="prota__td">Hijo de Gendo Ikari y Yui Ikari</td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure class="prota-fig">
-                                    <img class="prota-img" src="../image/Asuka.jpg"
-                                        alt="Imagen de Asuka, una de los Personajes principales">
+                            <td headers="col1" class="prota__td">
+                                <figure class="prota__fig">
+                                    <img src="img/Asuka.jpg" class="prota__img" alt="Asuka Langley Soryu">
                                 </figure>
                             </td>
-                            <td>Asuka Langley Soryu</td>
-                            <td>Yuko Miyamura</td>
-                            <td>Piloto de EVA 02</td>
-                            <td class="historia">Asuka, de 14 años, es la piloto designada de la unidad Evangelion-02, siendo a la vez
+                            <td headers="col2" class="prota__td">Asuka Langley Soryu</td>
+                            <td headers="col3" class="prota__td">Yuko Miyamura</td>
+                            <td headers="col4" class="prota__td">Piloto de EVA 02</td>
+                            <td headers="col5" class="prota__td">Asuka, de 14 años, es la piloto designada de la unidad Evangelion-02, siendo a la vez
                                 denominada como el segundo niño.
                                 Su madre fue piloto de prueba durante el desarrollo de las unidades Evangelion. Asuka es
                                 convocada por la organización NERV
                                 para desempeñarse en el mismo papel que su madre. Llega a Japon, vive junto a Shinji y
-                                Misato.
-                            </td>
-                            <td>
-                                Hija de Kyoko Zeppelin Soryu
-                            </td>
+                                Misato.</td>
+                            <td headers="col6" class="prota__td">Hija de Kyoko Zeppelin Soryu</td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure class="prota-fig">
-                                    <img class="prota-img" src="../image/Rei.png"
-                                        alt="Imagen de Rei, la denominada Primer Niño">
+                            <td headers="col1" class="prota__td">
+                                <figure class="prota__fig">
+                                    <img src="img/Rei.png" class="prota__img" alt="Rei Ayanami">
                                 </figure>
                             </td>
-                            <td>Rei Ayanami</td>
-                            <td>Megumi Hayashibara</td>
-                            <td>Piloto de EVA 01</td>
-                            <td class="historia">Rei, de 14 años, es el "Primer Niño" designada para pilotar la unidad Evangelion-00.
+                            <td headers="col2" class="prota__td">Rei Ayanami</td>
+                            <td headers="col3" class="prota__td">Megumi Hayashibara</td>
+                            <td headers="col4" class="prota__td">Piloto de EVA 00</td>
+                            <td headers="col5" class="prota__td">Rei, de 14 años, es el "Primer Niño" designada para pilotar la unidad Evangelion-00.
                                 Una chica reservada, no se sabe demasiado sobre su pasado. Compañera de Clases de Shinji
-                                y Asuka.
-                            </td>
-                            <td>-</td>
+                                y Asuka.</td>
+                            <td headers="col6" class="prota__td">-</td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure id="misato-fig">
-                                    <img id="misato-img" src="../image/misato.jpg"
-                                        alt="Imagen de Misato, Tutora de Shinji">
+                            <td headers="col1" class="prota__td">
+                                <figure class="prota__fig">
+                                    <img src="img/misato.jpg" class="prota__img" alt="Katsuragi Misato">
                                 </figure>
                             </td>
-                            <td>Misato Katsuragi</td>
-                            <td>Kotono Mitsuishi</td>
-                            <td>Comandante de La organización NERV</td>
-                            <td class="historia">Misato, 29 años, es la jefa de operaciones tácticas de NERV. Hija del Dr. Katsuragi, uno
-                                de los cientificos
-                                involucrados en el suceso del "Segundo Impacto" y la unica sobreviviente del mismo. Se
-                                le ordena traer a Shinji a
-                                los cuarteles de la organización y se convierte en su Tutora.
-                            </td>
-                            <td>Hija del Dr. Katsuragi</td>
+                            <td headers="col2" class="prota__td">Katsuragi Misato</td>
+                            <td headers="col3" class="prota__td">Kotono Mitsuishi</td>
+                            <td headers="col4" class="prota__td">Comandante de la Organización NERV</td>
+                            <td headers="col5" class="prota__td">Misato, 29 años, es la jefa de operaciones tácticas de NERV. Hija del Dr. Katsuragi, uno de los cientificos involucrados en el suceso del "Segundo Impacto" y la unica sobreviviente del mismo. Se le ordena traer a Shinji a los cuarteles de la organización y se convierte en su Tutora.</td>
+                            <td headers="col6" class="prota__td">Hija del Dr. Katsuragi</td>
                         </tr>
                     </tbody>
                 </table>
             </article>
-        </section>
 
-        <!------------------Sección Temporadas------------------>
-        <section id="contenedor-temporadas">
-            <article>
-                <h2>Temporadas</h2>
-                <table id="tabla-temporadas">
-                    <thead>
+            <!-------------------------TEMPORADAS------------------------->
+            <article id="temp">
+                <table class="prota__tabla">
+                    <caption><h1>Temporadas</h1></caption>
+                    <thead class="prota__head">
                         <tr>
-                            <th scope="col">Temporada</th>
-                            <th scope="col">Número de Temporada</th>
-                            <th scope="col">Número de Cápitulo</th>
-                            <th scope="col">Fecha de Estreno</th>
-                            <th scope="col">Trailer</th>
+                            <th scope="col" id="col1">Temporada</th>
+                            <th scope="col" id="col2">Nro Temporada</th>
+                            <th scope="col" id="col3">Nro Capitulos</th>
+                            <th scope="col" id="col4">Estreno</th>
+                            <th scope="col" id="col5">Trailer</th>
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td>
-                                <figure class="temp-fig">
-                                    <img class="temp-img" src="image/Evangelion Serie.jpg"
-                                        alt="Portada de la serie Neon Genesis Evangelion">
+                            <td headers="col1" class="temp__td">
+                                <figure class="temp__fig">
+                                    <img src="img/Evangelion Serie.jpg" class="temp__img" alt="Poster promocional de Neon Genesis Evangelion">
                                 </figure>
                             </td>
-                            <td>1</td>
-                            <td>26</td>
-                            <td>4 de ocutubre de 1995</td>
-                            <td><iframe src="https://www.youtube.com/embed/13nSISwxrY4" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <td headers="col2" class="temp__td">1</td>
+                            <td headers="col3" class="temp__td">26</td>
+                            <td headers="col4" class="temp__td">04/10/1995</td>
+                            <td headers="col5" class="temp__td">
+                                <iframe class="temp__trailer" title="Trailer" src="https://www.youtube.com/embed/13nSISwxrY4" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure class="temp-fig">
-                                    <img class="temp-img" src="image/the end of evangelion.jpg"
-                                        alt="Portada de the end of evangelion">
+                            <td headers="col1" class="temp__td">
+                                <figure class="temp__fig">
+                                    <img src="img/the end of evangelion.jpg" class="temp__img" alt="Poster promocional de la pelicula The End of Evangelion">
                                 </figure>
                             </td>
-                            <td>2</td>
-                            <td>Pelicula</td>
-                            <td>19 de julio de 1997</td>
-                            <td>
-                                <iframe src="https://www.youtube.com/embed/IQrXRBh94IA" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <td headers="col2" class="temp__td">2</td>
+                            <td headers="col3" class="temp__td">Pelicula</td>
+                            <td headers="col4" class="temp__td">19/07/1997</td>
+                            <td headers="col5" class="temp__td">
+                                <iframe class="temp__trailer" title="Trailer" src="https://www.youtube.com/embed/IQrXRBh94IA" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure class="temp-fig">
-                                    <img class="temp-img" src="image/Evangelion 1.0.png"
-                                        title="Rebuild of Evangelion 1.11: You are (not) alone"
-                                        alt="Portada de Evangelión 1.11">
+                            <td headers="col1" class="temp__td">
+                                <figure class="temp__fig">
+                                    <img src="img/Evangelion 1.0.png" class="temp__img" alt="Poster promocional de Rebuild of Evangelion 1.0">
                                 </figure>
                             </td>
-                            <td>3</td>
-                            <td>Pelicula</td>
-                            <td>1 de septiembre de 2007</td>
-                            <td>
-                                <iframe src="https://www.youtube.com/embed/rof6qBz84vE" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <td headers="col2" class="temp__td">3</td>
+                            <td headers="col3" class="temp__td">Pelicula</td>
+                            <td headers="col4" class="temp__td">01/09/2007</td>
+                            <td headers="col5" class="temp__td">
+                                <iframe class="temp__trailer" title="Trailer" src="https://www.youtube.com/embed/rof6qBz84vE" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure class="temp-fig">
-                                    <img class="temp-img" src="image/Evangelion 2.0.jpg"
-                                        title="Rebuild of Evangelion 2.22: You can (not) Advance"
-                                        alt="Portada Evangelion 2.22">
+                            <td headers="col1" class="temp__td">
+                                <figure class="temp__fig">
+                                    <img src="img/Evangelion 2.0.jpg" class="temp__img" alt="Poster promocional de Rebuild of Evangelion 2.0">
                                 </figure>
                             </td>
-                            <td>4</td>
-                            <td>Pelicula</td>
-                            <td>27 de junio de 2009</td>
-                            <td>
-                                <iframe src="https://www.youtube.com/embed/u_uVKsd335Y" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <td headers="col2" class="temp__td">4</td>
+                            <td headers="col3" class="temp__td">Pelicula</td>
+                            <td headers="col4" class="temp__td">27/06/2009</td>
+                            <td headers="col5" class="temp__td">
+                                <iframe class="temp__trailer" title="Trailer" src="https://www.youtube.com/embed/u_uVKsd335Y" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <figure class="temp-fig">
-                                    <img class="temp-img" src="image/Evangelion 3.0.jpg"
-                                        title="Rebuild of Evangelion 3.33: You can (not) Redo"
-                                        alt="Portada de Evangelion 3.33">
+                            <td headers="col1" class="temp__td">
+                                <figure class="temp__fig">
+                                    <img src="img/Evangelion 3.0.jpg" class="temp__img" alt="Poster promocional de Rebuild of Evangelion">
                                 </figure>
                             </td>
-                            <td>5</td>
-                            <td>Pelicula</td>
-                            <td>17 de noviembre de 2012</td>
-                            <td>
-                                <iframe src="https://www.youtube.com/embed/1__8I6tjxjM" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <td headers="col2" class="temp__td">5</td>
+                            <td headers="col3" class="temp__td">Pelicula</td>
+                            <td headers="col4" class="temp__td">17/11/2012</td>
+                            <td headers="col5" class="temp__td">
+                                <iframe class="temp__trailer" title="Trailer" src="https://www.youtube.com/embed/1__8I6tjxjM" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </article>
-        </section>
 
-        <!------------------Sección Merchandising------------------>
-        <section id="contenedor-merchandising">
-            <h2>Merchandising</h2>
-            <article id="merch-article">
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/taza shinji.webp" alt="taza de shinji">
-                    <figcaption>Taza de Shinji</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/asuka chiquita.jpg" alt="figura de asuka mini">
-                    <figcaption>Mini figura de Asuka</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/figura rei.jpg" alt="figura de rei">
-                    <figcaption>Figura de Rei</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/figura misato.jpg" alt="figura de misato">
-                    <figcaption>Figura de Misato</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/taza asuka.png" alt="taza de asuka">
-                    <figcaption>Taza de Asuka</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/figura eva 00.jpg" alt="figura eva 00">
-                    <figcaption>Figura del EVA-00</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/figura eva 01.jpg" alt="figura eva 01">
-                    <figcaption>Figura del EVA-01</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/figura eva 02.webp" alt="figura eva 02">
-                    <figcaption>Figura del EVA-02</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/figura asuka.jpg" alt="figura asuka">
-                    <figcaption>Figura de Asuka</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/funko shinji.jpg" alt="funko de shinji">
-                    <figcaption>Funko de Shinji</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/funko asuka.webp" alt="funko de asuka">
-                    <figcaption>Funko de Asuka</figcaption>
-                </figure>
-                <figure class="album-merch">
-                    <img class="merch-img" src="image/funko rei.jpg" alt="funko de rei">
-                    <figcaption>Funko de Rei</figcaption>
-                </figure>
+            <!-------------------------MERCHINDISING------------------------->
+            <article id="merch">
+                <h1>Merchandising</h1>
+                <section class="merch__album">
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/taza shinji.webp" alt="taza de shinji">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Taza de Shinji</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/asuka chiquita.jpg" alt="figura de asuka mini">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Mini figura de Asuka</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/figura rei.jpg" alt="figura de rei">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Figura de Rei</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/figura misato.jpg" alt="figura de misato">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Figura de Misato</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/taza asuka.png" alt="taza de asuka">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Taza de Asuka</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/figura eva 00.jpg" alt="figura eva 00">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Figura del EVA-00</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/figura eva 01.jpg" alt="figura eva 01">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Figura del EVA-01</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/figura eva 02.webp" alt="figura eva 02">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Figura del EVA-02</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/figura asuka.jpg" alt="figura asuka">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Figura de Asuka</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/funko shinji.jpg" alt="funko de shinji">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Funko de Shinji</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/funko asuka.webp" alt="funko de asuka">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Funko de Asuka</h2></figcaption>
+                    </figure>
+                    <figure class="merch__fig">
+                        <img class="merch__img" src="img/funko rei.jpg" alt="funko de rei">
+                        <figcaption class="merch__fc"><h2 class="merch_h2">Funko de Rei</h2></figcaption>
+                    </figure>
+                </section>
             </article>
-        </section>
 
-        <!------------------Sección Suscripción------------------>
-        <section id="contenedor-login">
-            <article>
-                <h2 id="login-h2">Suscribase a Noticias</h2>
-                <form>
-                    <label for="ape">Apellido:
-                        <input type="text" name="ape" placeholder="Apellido" id="ape">
-                    </label for="nom">
-                    <label>Nombre:
-                        <input type="text" name="nom" placeholder="Nombre" id="nom">
-                    </label>
-                    <label for="mail">Mail:
-                        <input type="email" name="mail" placeholder="Mail" id="mail">
-                    </label>
-                    <label for="pais">País:
-                        <select type="combobox" name="pais" id="pais">
-                            <option value="Argentina" selected>Argentina</option>
-                            <option value="Bolivia">Bolivia</option>
-                            <option value="Chile">Chile</option>
-                            <option value="Paraguay">Paraguay</option>
-                            <option value="Peru">Peru</option>
-                            <option value="Uruguay">Uruguay</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </label>
-                    <label for="boton" id="send">
-                        <input class="boton" type="submit">
-                        <input class="boton" type="reset">
-                    </label>
+            <!-------------------------LOGIN---------------------------->
+            <article id="login">
+                <form action="php/registrar.php" method="post" class="login__form">
+                    <legend class="login__legend">Suscribase a Noticias</legend>
+                    <label for="ln" class="login__label">Apellido:</label>
+                    <input type="text" name="apellido" id="ln" class="login__input" placeholder="Apellido">
+                    <label for="name" class="login__label">Nombre:</label>
+                    <input type="text" name="nombre" id="name" class="login__input" placeholder="Nombre">
+                    <label for="mail" class="login__label">Mail:</label>
+                    <input type="email" name="mail" id="mail" class="login__input" placeholder="Mail">
+                    <label for="pais" class="login__label">País:</label>
+                    <select name="pais" id="pais" class="login__input">
+                        <option value="Argentina" selected>Argentina</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Chile">Chile</option>
+                    </select>
+                    <fieldset class="login__field">
+                        <input type="submit" value="Enviar" class="login__boton">
+                        <input type="reset" value="Reestablecer" class="login__boton">
+                    </fieldset>
                 </form>
             </article>
         </section>
     </main>
+    
 </body>
-
 </html>

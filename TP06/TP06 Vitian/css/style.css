@@ -1,757 +1,110 @@
+/*************CSS GENERAL*************/
 * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /*Para que el tamaño de los elementos en una box no cambie el tamaño de la misma*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#salto {
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#salto:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo {
+    width: 100vw;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#show, #hide {
+    color: black;
+    padding: 2vw 0 1vh 2vw;
+}
+
+#menu {
+    width: 100vw;
+}
+
+.menu__a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu__ul {
     padding: 0;
     margin: 0;
-    border: 0;
 }
 
-header{
-    background-color: rgb(95, 0, 95);
-    color: white;
-}
-
-#saltar{
-    color: white;
-}
-
-#contenedor-menu{
-    background-color: rgb(95, 0, 95);
-}
-
-.icon-download{
-    content: "e910";
-    color: grey;
-    background-color: rgb(95, 0, 95);
-    font-size: 1.5rem;
-    
-}
-
-.icon-upload{
-    content: "e90f";
-    color: gray;
-    background-color: rgb(95, 0, 95);
-    font-size: 1.5rem;
-}
-
-#contenedor-enlaces a:hover, #contenedor-enlaces li:hover{
-    background-color: yellow;
-    color: black;
-    transition: 0.5s ease;
-    overflow: hidden;
-}
-
-nav{
-    background-color: rgb(95, 0, 95);
-    color: yellow;
-}
-
-#menu{
-    text-decoration: none;
+.menu__li {
     list-style: none;
 }
 
-#menu li{
-    background-color: blueviolet;
+.menu__li:hover {
+    background-color: yellow;
+    color: #000;
 }
 
-#menu a{
-    text-decoration: none;
+.prota__tabla th, .prota__td, .temp__td{
+    border: thin solid darkgray;
+    border-collapse: collapse;
+}
+
+.prota__tabla th {
+    background-color: grey;
     color: white;
 }
 
-main{
-    background-color: white;
+article {
+    width: 100vw;
+    margin-bottom: 5vh;
+    padding: 0 2vw 0 2vw;
+    text-align: justify;
 }
 
-main{
-    background-color: white;
+h1 {
+    font-size: 2rem;
+    text-align: center;
 }
 
-#tabla-protas, #tabla-temporadas{
-    border: 1px solid grey;
-    border-collapse: collapse;
+#argumento {
+    margin-top: 20vh;
 }
 
-#tabla-protas th, #tabla-temporadas th{
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
-
-#tabla-protas td, #tabla-temporadas td{
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
-
-/***********************Vista para celulares***********************/
-@media all and (min-width: 320px) and (max-width: 767px){
-    header{
-        width: 100vw;
-    }
-
-    header figure{
-        width: 100%;
-        text-align: center;
-    }
-
-    header figure img{
-        width: 75%;
-        height: 100%;
-    }
-
-    #saltar{
-        opacity: 0;
-    }
-
-    #saltar:focus{
-        opacity: 1;
-        font-size: 0.25rem;
-        text-align: center;
-    }
-
-    main{
-        width: 100vw;
-        display: block;
-    }
-
-    .icon-download{
-        font-size: 1.5rem;
-        
-    }
-    
-    .icon-upload{
-        font-size: 1.5rem;
-    }
-
-    #desplegar{
-        display: block;
-    }
-
-    #ocultar{
-        display: none;
-    }
-    
-    #contenedor-menu #contenedor-enlaces{
-        height: 45vh;
-        width: 98%;
-        height: 0;
-        transition: height 0.5s ease;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #contenedor-menu:target #desplegar{
-        display: none;
-    }
-
-    #contenedor-menu:target #ocultar{
-        display: block;
-    }
-
-    #contenedor-menu:target #contenedor-enlaces{
-        height: 45vh;
-        width: 98%;
-        transition: height 0.5s ease;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100vw;
-    }
-
-    #contenedor-enlaces a li{
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.25rem;
-    }
-
-    #contenedor-enlaces a{
-        width: 100%;
-        height: 18%;
-        text-align: center;
-    }
-
-    #contenedor-argumento{
-        width: 100vw;
-    }
-
-    #argumento-fig{
-        width: 100vw;
-    }
-
-    #argumento-img{
-        width: 100%;
-    }
-
-    h2{
-        text-align: center;
-        font-size: 2.1rem;
-    }
-    
-    #contenedor-argumento p{
-        font-size: 1.2rem;
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    /*******************PROTAGONISTAS*******************/
-    #contenedor-protagonistas{
-        margin-top: 10vh;
-    }
-
-    #tabla-protas{
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1rem;
-        border: 0;
-    }
-
-    #tabla-protas tr {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0.4rem;
-    }
-
-    #tabla-protas td{
-        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
-    }
-
-    #tabla-protas thead{
-        display: none;
-    }
-
-    #tabla-protas td:nth-of-type(1){
-        margin-top: 2vh;
-    }
-
-    #tabla-protas td:nth-of-type(2):before{
-        content: "Personaje |";
-    }
-
-    #tabla-protas td:nth-of-type(3):before{
-        content: "Actor |";
-    }
-
-    #tabla-protas td:nth-of-type(4):before{
-        content: "Ocupación |";
-    }
-
-    #tabla-protas td:nth-of-type(5):before{
-        content: "Historia |";
-    }
-
-    #tabla-protas td:nth-of-type(6):before{
-        content: "Parentesco |";
-    }
-    
-    #tabla-protas td:nth-child(odd):before, #tabla-protas td:nth-child(even):before{
-        font-weight: bolder;
-        margin-right: 3vw;
-    }
-
-    .prota-fig{
-        width: 95vw;
-        height: 40vh;
-        text-align: center;
-    }
-    
-    .prota-img{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    #misato-fig{
-        width: 95vw;
-        height: 60vh;
-        text-align: center;
-    }
-    
-    #misato-img{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    /*******************TEMPORADAS*******************/
-    #contenedor-temporadas{
-        margin-top: 10vh;
-    }
-
-    #tabla-temporadas{
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1rem;
-        border: 0;
-    }
-
-    #tabla-temporadas tr {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0.4rem;
-    }
-
-    #tabla-temporadas td{
-        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
-    }
-
-    #tabla-temporadas thead{
-        display: none;
-    }
-
-    #tabla-temporadas td:nth-of-type(1){
-        margin-top: 2vh;
-    }
-
-    #tabla-temporadas td:nth-of-type(2):before{
-        content: "Temporada |";
-    }
-
-    #tabla-temporadas td:nth-of-type(3):before{
-        content: "Capitulos |";
-    }
-
-    #tabla-temporadas td:nth-of-type(4):before{
-        content: "Fecha de estreno |";
-    }
-
-    #tabla-temporadas td:nth-of-type(5):before{
-        content: "Trailer |";
-    }
-    
-    #tabla-temporadas td:nth-child(odd):before, #tabla-temporadas td:nth-child(even):before{
-        font-weight: bolder;
-        margin-right: 3vw;
-    }
-
-    .temp-fig{
-        width: 95vw;
-        height: 350px;
-        text-align: center;
-    }
-
-    .temp-img{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    #tabla-temporadas iframe{
-        width: 95vw;
-        height: 35vh;
-    }
-
-    /*******************MERCHANDISING*******************/
-    #contenedor-merchandising{
-        margin-top: 10vh;
-    }
-
-    #merch-article{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .album-merch{
-        width: 95vw;
-        height: 65vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-    }
-    
-    .merch-img{
-        max-width: 100%;
-        height: 94%;
-        border: 2px solid gray;
-    }
-
-    #celular-fig{
-        width: 100vw;
-        height: 65vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 2vh;
-    }
-
-    #celular{
-        width: 98%;
-        height: 50%;
-        border: 2px solid gray;
-    }
-
-    /*******************SUBSCRIBETE*******************/
-    #contenedor-login{
-        width: 100vw;
-        height: 100vh;
-        margin-top: 10vh;
-        background-image: url(../image/suscribe\ 3.png);
-        background-repeat: none;
-        background-position: 87%;
-        background-size: 320%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-shadow: 2px 2px black;
-    }
-
-    #contenedor-login article{
-        width: 100%;
-        height: 100%;
-    }
-
-    form{
-        width: 100%;
-        height: 94%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    label{
-        width: 90vw;
-        font-size: 1.2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    input, select{
-        border: 1px solid black;
-        width: 90vw;
-        height: 2rem;
-    }
-
-    #send{
-        width: 90vw;
-        height: 17.5vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid white;
-        border-radius: 5px;
-        box-shadow: 1px 1px black;
-    }
-
-    .boton{
-        width: 90%;
-        height: 3rem;
-        background-color: white;
-        border-radius: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bolder;
-        font-size: 1rem;
-    }
-
-    .boton:hover{
-        background-color: grey;
-    }
-}
-
-
-
-/***********************Vista para tablets***********************/
-@media all and (min-width: 768px) and (max-width: 1023px){
-    header{
-        width: 100vw;
-    }
-
-    header figure{
-        width: 100%;
-        text-align: center;
-    }
-
-    header figure img{
-        width: 60%;
-        height: 80%;
-    }
-
-    #saltar{
-        opacity: 0;
-    }
-
-    #saltar:focus{
-        opacity: 1;
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    main{
-        width: 100vw;
-        display: block;
-    }
-    
-    .icon-download{
-        font-size: 3rem;
-        
-    }
-    
-    .icon-upload{
-        font-size: 3rem;
-    }
-
-    #desplegar{
-        display: block;
-    }
-
-    #ocultar{
-        display: none;
-    }
-    
-    #contenedor-menu #contenedor-enlaces{
-        height: 45vh;
-        width: 98%;
-        height: 0;
-        transition: height 0.5s ease;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #contenedor-menu:target #desplegar{
-        display: none;
-    }
-
-    #contenedor-menu:target #ocultar{
-        display: block;
-    }
-
-    #contenedor-menu:target #contenedor-enlaces{
-        height: 45vh;
-        width: 98%;
-        transition: height 0.5s ease;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100vw;
-    }
-
-    #contenedor-enlaces a li{
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 2.5rem;
-    }
-
-    #contenedor-enlaces a{
-        width: 100%;
-        height: 18%;
-        text-align: center;
-    }
-
-    /*******************PROTAGONISTAS*******************/
-    #contenedor-argumento{
-        width: 100vw;
-    }
-
-    #argumento-fig{
-        width: 100vw;
-    }
-
-    #argumento-img{
-        width: 100%;
-    }
-
-    h2{
-        text-align: center;
-        font-size: 4rem;
-    }
-    
-    #contenedor-argumento p{
-        font-size: 2.2rem;
-        font-weight: normal;
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    /*******************PROTAGONISTAS*******************/
-    #contenedor-protagonistas{
-        margin-top: 10vh;
-    }
-
-    #tabla-protas{
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1rem;
-        border: 0;
-    }
-
-    #tabla-protas tr {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0.4rem;
-        font-size: 2.1rem;
-    }
-
-    #tabla-protas td{
-        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
-    }
-
-    #tabla-protas thead{
-        display: none;
-    }
-
-    #tabla-protas td:nth-of-type(1){
-        margin-top: 2vh;
-    }
-
-    #tabla-protas td:nth-of-type(2):before{
-        content: "Personaje |";
-    }
-
-    #tabla-protas td:nth-of-type(3):before{
-        content: "Actor |";
-    }
-
-    #tabla-protas td:nth-of-type(4):before{
-        content: "Ocupación |";
-    }
-
-    #tabla-protas td:nth-of-type(5):before{
-        content: "Historia |";
-    }
-
-    #tabla-protas td:nth-of-type(6):before{
-        content: "Parentesco |";
-    }
-    
-    #tabla-protas td:nth-child(odd):before, #tabla-protas td:nth-child(even):before{
-        font-weight: bolder;
-        margin-right: 3vw;
-    }
-
-    .prota-fig{
-        width: 95vw;
-        height: 40vh;
-        text-align: center;
-    }
-    
-    .prota-img{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    #misato-fig{
-        width: 95vw;
-        height: 70vh;
-        text-align: center;
-    }
-    
-    #misato-img{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    /*******************TEMPORADAS*******************/
-    #contenedor-temporadas{
-        margin-top: 10vh;
-        width: 100vw;
-    }
-
-    #tabla-temporadas{
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1rem;
-        border: 0;
-    }
-
-    #tabla-temporadas tr {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0.4rem;
-        font-size: 2.1rem;
-    }
-
-    #tabla-temporadas td{
-        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
-    }
-
-    #tabla-temporadas thead{
-        display: none;
-    }
-
-    #tabla-temporadas td:nth-of-type(1){
-        margin-top: 2vh;
-    }
-
-    #tabla-temporadas td:nth-of-type(2):before{
-        content: "Temporada |";
-    }
-
-    #tabla-temporadas td:nth-of-type(3):before{
-        content: "Capitulos |";
-    }
-
-    #tabla-temporadas td:nth-of-type(4):before{
-        content: "Fecha de estreno |";
-    }
-
-    #tabla-temporadas td:nth-of-type(5):before{
-        content: "Trailer |";
-    }
-    
-    #tabla-temporadas td:nth-child(odd):before, #tabla-temporadas td:nth-child(even):before{
-        font-weight: bolder;
-        margin-right: 3vw;
-    }
-
-    .temp-fig{
-        width: 95vw;
-        height: 70vh;
-        text-align: center;
-    }
-
-    .temp-img{
-        max-width: 100%;
-        height: 100%;
+/*************VISTA PARA CELULARES*************/
+@media all and (min-width: 320px) {
+    .titulo {
+        height: 20vh;
     }
 
-    #tabla-temporadas iframe{
-        width: 95vw;
-        height: 42.5vh;
+    .titulo__contenedor {
+        height: 10vh;
     }
 
-    /*******************MERCHANDISING*******************/
-    #contenedor-merchandising{
-        margin-top: 10vh;
+    .titulo__imagen {
+        max-height:100%;
     }
 
-    #merch-article{
-        width: 100vw;
+    .menu__ul {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -759,795 +112,504 @@ main{
         flex-wrap: wrap;
     }
 
-    .album-merch{
-        width: 45vw;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 4vh;
-    }
-    
-    .merch-img{
-        max-width: 100%;
-        height: 94%;
-        border: 2px solid gray;
-    }
-    
-    figcaption{
-        font-size: 2.1rem;
-    }
-
-    #celular-fig{
+    .menu__a {
         width: 100vw;
-        height: 65vh;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 2vh;
+        align-self: stretch;
     }
 
-    #celular{
-        width: 98%;
-        height: 50%;
-        border: 2px solid gray;
-    }
-
-    /*******************SUBSCRIBETE*******************/
-    #contenedor-login{
+    .menu__li {
         width: 100vw;
-        height: 100vh;
-        margin-top: 10vh;
-        background-image: url(../image/suscribe\ 3.png);
-        background-repeat: none;
-        background-position: 92%;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 0px 0px 1px #000;
+    }
+
+    #show {
+        display: block;
+        font-size: 5vh;
         color: white;
-        text-shadow: 2px 2px black;
+        position: relative;
     }
 
-    #contenedor-login article{
-        width: 100%;
-        height: 100%;
+    #hide{
+        display: none;
     }
 
-    form{
+    #menu__container .menu__ul {
+        background-color: purple;
+        height: 0;
+        transition: height 0.5s ease;
+        overflow: hidden;
+    }
+
+    #menu__container:target #show {
+        display: none;
+    }
+
+    #menu__container:target #hide {
+        display: block;
+        font-size: 5vh;
+        color: white;
+        position: relative;
+        right: 0;
+    }
+
+    #menu__container:target .menu__ul {
+        background-color: purple;
+        height: 40vh;
+        transition: height 0.5s ease;
+        position: relative;
+        z-index: 100;
+    }
+
+    #argumento:before, #prota:before,#temp:before,
+    #merch:before, #login:before {
+        display: block;
+        content: " ";
+        height: 20.5vh;
+        margin-top: -20vh;
+        visibility: hidden;
+    }
+
+    /*************ARGUMENTO*************/
+
+    .argumento h1{
+        text-align: center;
+        margin: 1vh 0 1vh 0;
+    }
+
+    .argumento p {
+        text-align: justify;
+        margin-bottom: 1vh;
+    }
+
+    .argumento__fig {
         width: 100%;
-        height: calc(98% - 4rem);
-        margin: 0 auto;
+        text-align: center;
+    }
+
+    .argumento__img {
+        max-width: 100%;
+    }
+
+    /*************PROTAGONISTAS*************/
+    .prota__tabla tr {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
     }
 
-    label{
-        width: 90vw;
-        font-size: 2.1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    .prota__head {
+        display: none;
     }
 
-    input, select{
-        border: 1px solid black;
-        width: 90vw;
-        height: 3rem;
+    .prota__td:nth-of-type(2)::before {
+        content: "Nombre: |";
+    }
+
+    .prota__td:nth-of-type(3)::before {
+        content: "Seiyuu: |";
+    }
+
+    .prota__td:nth-of-type(4)::before {
+        content: "Ocupación: |";
+    }
+
+    .prota__td:nth-of-type(5)::before {
+        content: "Historia: |";
+    }
+
+    .prota__td:nth-of-type(6)::before {
+        content: "Parentezco: |";
+    }
+
+    .prota__td:nth-child(odd)::before, .prota__td:nth-child(even)::before {
+        background-color: grey;
+        color: white;
+        margin-right: 1vw;
+    }
+    
+    .prota__tabla {
+        width: 100%;
+        margin-bottom: -5vh;
+    }
+
+    .prota__fig {
+        width: 100%;
+        text-align: center;
+    }
+
+    .prota__img {
+        max-width: 100%;
+    }
+
+    .prota__td {
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .prota__td:nth-of-type(6) {
+        margin-bottom: 5vh;
+    }
+
+    /*************TEMPORADAS*************/
+    .temp__td {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .temp__fig {
+        width: 100%;
+        text-align: center;
+    }
+
+    .temp__img {
+        max-width: 100%;
+    }
+
+    .temp__trailer {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .temp__td:nth-child(5) {
+        margin-bottom: 5vh;
+    }
+
+    /*************MERCHANDISING*************/
+    #merch {
+        text-align: center;
+    }
+
+    .merch__album {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
     }
 
-    #send{
-        width: 90vw;
-        height: 17.5vh;
+    .merch__fig {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5vh;
+        box-shadow: 0px 0px 3px #000;
+        padding: 10px;
+    }
+
+    .merch__img {
+        max-width: 100%;
+        border: thin solid rgba(00, 00, 00, 0.4);
+    }
+
+    .merch__h2 {
+        text-align: center;
+    }
+    
+    /*************MERCHINDISING*************/
+    #login {
+        height: 80vh;
+        background-image: url("../img/suscribe\ 3.png");
+        background-position: 95%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .login__form {
+        width: 100vw;
+        height: 100%;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        border: 3px solid white;
-        border-radius: 5px;
-        box-shadow: 1px 1px black;
+        background-color: rgba(00, 00, 00, 0.4) 
     }
 
-    .boton{
-        width: 90%;
-        height: 4rem;
-        background-color: white;
-        border-radius: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bolder;
+    .login__legend {
+        color: white;
         font-size: 2.5rem;
+        text-align: center;
+        font-weight: bolder;
+        margin: 1vh 0 4vh 0;
     }
 
-    .boton:hover{
+    .login__label {
+        display: block;
+        width: 90vw;
+        font-size: 1.4rem;
+        color: white;
+    }
+
+    .login__input {
+        display: block;
+        width: 90vw;
+        height: 2.5rem;
+        margin-bottom: 5vh;
+    }
+
+    .login__input::placeholder, .login__input:optional {
+        font-size: 1.4rem;
+        padding-left: 1vw;
+    }
+
+    .login__field {
+        width: 90vw;
+        height: 20%;
+        border: thin solid white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .login__boton {
+        width: 95%;
+        height: 40%;
+        color: Black;
         background-color: grey;
+        font-size: 2rem;
+        outline: thin solid white;
+    }
+
+    .login__boton:focus {
+        color: black;
+        background-color: darkgray;
     }
 }
 
-
-
-/***********************Vista para PC***********************/
-@media all and (min-width: 1024px) and (max-width: 1439px){
-    header{
-        width: 100vw;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-    }
-
-    header figure{
-        width: 100%;
-        text-align: center;
-    }
-
-    header figure img{
-        width: 15%;
-    }
-
-    #saltar{
-        display: none;
-    }
-
-    #saltar:focus{
-        opacity: 1;
-        font-size: 0.25rem;
-        text-align: center;
-    }
-
-    main{
-        width: 100vw;
+/*************VISTA PARA TABLETS*************/
+@media all and (min-width: 768px) {
+    /*************ARGUMENTO*************/
+    #show {
         display: block;
-    }
-    
-    .icon-download{
-        display: none;
-    }
-    
-    .icon-upload{
-        display: none;
+        font-size: 1.25rem;
+        color: white;
+        position: relative;
     }
 
-    #desplegar{
-        display: none;
+    #menu__container:target #hide {
+        display: block;
+        font-size: 1.25rem;
+        color: white;
+        position: relative;
+        right: 0;
     }
 
-    #ocultar{
-        display: none;
-    }
-
-    #menu{
+    /*************MERCHANDISING*************/
+    .merch__album {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    .merch__fig {
+        width: 40%;
+        height: 80vh;
+        text-align: center;
+        margin-bottom: 5vh;
+        box-shadow: 0px 0px 3px #000;
+        padding: 10px;
+    }
+
+    .merch__img {
+        height: 90%;
+        border: thin solid rgba(00, 00, 00, 0.4);
+    }
+}
+
+/*************VISTA PARA PC*************/
+@media all and (min-width: 1024px) {
+    #show, #hide {
+        display: none;
+    }
+
+    #menu__container .menu__ul {
+        height: 6.5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .menu__a {
+        width: auto;
+    }
+
+    .menu__li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
         height: 6.5vh;
     }
+    /*************ARGUMENTO*************/
 
-    #contenedor-enlaces{
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    .argumento h1{
+        text-align: center;
+        margin: 1vh 0 1vh 0;
     }
 
-    #contenedor-enlaces a li{
-        text-align: center;
+    .argumento p {
+        text-align: justify;
+        margin-bottom: 1vh;
+    }
+
+    .argumento__fig {
         width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3rem;
-    }
-
-    #contenedor-enlaces a{
-        width: 20%;
-        height: 5vh;
         text-align: center;
     }
 
-    #contenedor-argumento:before, #contenedor-protagonistas:before,
-    #contenedor-temporadas:before, #contenedor-merchandising:before,
-    #contenedor-login:before{
-        display: block;
-        content: " ";
-        height: 141.6px;
-        margin-top: -141.6px;
-        visibility: hidden;
+    .argumento__img {
+        width: 70%;
     }
 
-    /*******************ARGUMENTO*******************/
-    #contenedor-argumento{
-        width: 100vw;
-    }
-
-    #argumento-fig{
-        width: 100vw;
-        margin-top: 2vh;
-        text-align: center;
-    }
-
-    #argumento-img{
-        width: 35%;
-    }
-
-    h2{
-        text-align: center;
-        font-size: 2rem;
-        margin-bottom: 2vh;
-    }
-    
-    #contenedor-argumento p{
-        font-size: 1.3rem;
-        font-weight: normal;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    /*******************PROTAGONISTAS*******************/
-    #contenedor-protagonistas{
-        margin-top: 10vh;
-        width: 100vw;
-    }
-
-    #contenedor-protagonistas article{
+    /*************PROTAGONISTAS*************/
+    .prota__tabla {
         width: 100%;
+        border-collapse: collapse;
     }
 
-    #tabla-protas{
-        width: 95vw;
-        margin: 0 auto;
-        font-size: 1.2rem;
-        border: 0;
+    .prota__head {
+        display: table-header-group;
     }
 
-    #tabla-protas tr{
+    .prota__tabla tr{
         display: table-row;
+        width: 100%;
     }
 
-    #col1, #col2, #col3, #col4, #col5, #col6{
-        width: 90px;
+    .prota__td:nth-child(odd)::before, .prota__td:nth-child(even)::before {
+        display: none;
     }
 
-    #tabla-protas td{
-        padding: 0.5rem;
+    .prota__head {
         text-align: center;
     }
 
-    td:nth-child(5), th:nth-child(5){
+    .prota__fig {
+        width: 100%;
+    }
+
+    .prota__img {
+        max-width: 100%;
+    }
+
+    .prota__td {
+        text-align: justify;
+        padding: 5px;
+        max-width: 20vw;
+    }
+
+    /*************TEMPORADAS*************/
+    .temp__td {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .temp__fig {
+        width: 22vw;
+        text-align: center;
+        
+    }
+
+    .temp__img {
+        max-width: 100%;
+    }
+
+    .temp__trailer {
         width: 40vw;
-        padding: 0.5rem;
+        height: 40vh;
     }
 
-    .prota-fig{
-        width: 100%;
-    }
-    
-    .prota-img{
-        max-width: 100%;
-    }
-
-    /*******************TEMPORADAS*******************/
-
-    /*Aqui volvi a descargar la diapositiva de teoria y vi que se
-    agrego otra manera de hacer esta parte*/
-
-    #contenedor-temporadas{
-        margin-top: 10vh;
-    }
-
-    #tabla-temporadas{
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1rem;
-        border: 0;
-    }
-
-    #tabla-temporadas tr {
-        display: table-row;
-        margin-bottom: 0.4rem;
-        font-size: 1.2rem;
-    }
-
-    #tabla-temporadas td{
-        padding: 0.5rem;
-        text-align: center;
-    }
-
-    .temp-fig{
-        width: 100%;
-    }
-
-    .temp-img{
-        max-width: 100%;
-    }
-
-    #tabla-temporadas iframe{
-        width: 100%;
-        height: 37.5vh;
-    }
-
-    /*******************MERCHANDISING*******************/
-    #contenedor-merchandising{
-        margin-top: 10vh;
-    }
-
-    #merch-article{
-        width: 90vw;
-        margin: 0 auto;
+    .merch__album {
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
 
-    .album-merch{
-        width: 25vw;
-        height: 45vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 4vh;
-    }
-    
-    .merch-img{
-        max-width: 100%;
-        height: 94%;
-        border: 2px solid gray;
-    }
-    
-    figcaption{
-        margin-top: 0;
-        font-size: 1.5rem;
+    /*************MERCHINDISING*************/
+    .merch__fig {
+        width: 30%;
+        height: 50vh;
+        text-align: center;
+        margin-bottom: 5vh;
+        box-shadow: 0px 0px 3px #000;
+        padding: 10px;
     }
 
-    #celular-fig{
-        max-width: 50vw;
-        height: 65vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2vh;
+    .merch__img {
+        max-width: 90%;
+        border: thin solid rgba(00, 00, 00, 0.4);
     }
 
-    #celular{
-        width: 98%;
-        height: 50%;
-        margin-bottom: 8vh;
-        border: 2px solid gray;
+    article {
+        margin-bottom: 10vh;
     }
 
-    /*******************SUBSCRIBETE*******************/
-    #contenedor-login{
-        width: 100vw;
-        height: 85vh;
-        margin-top: 10vh;
-        background-image: url(../image/suscribe\ 3.png);
-        background-repeat: none;
-        background-position: 80%;
-        background-size: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-shadow: 2px 2px black;
-    }
-
-    #contenedor-login article{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    form{
-        width: 50%;
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    label{
-        width: 100%;
-        font-size: 1.5rem;
-        display: flex;
+    /*************LOGIN*************/
+    .login__form {
+        width: 75%;
+        height: 80%;
         flex-direction: row;
-        justify-content: space-between;
-    }
-
-    input, select{
-        border: 1px solid black;
-        width: 35vw;
-        height: 2.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        font-size: 1.5rem;
+        flex-wrap: wrap;
     }
 
-    #send{
-        width: 50vw;
-        height: 15vh;
-        display: flex;
+    .login__legend {
+        width: 100%;
+    }
+
+    .login__label {
+        width: 30%;
+        margin: 0;
+        text-align: end;
+        padding-right: 2vw;
+    }
+
+    .login__input {
+        width: 60%;
+        margin: 0;
+    }
+
+    .login__field {
+        width: 90%;
+        height: 20vh;
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 3px solid white;
-        border-radius: 5px;
-        box-shadow: 1px 1px black;
+        margin: 0 5% 0 5%;
     }
 
-    .boton{
-        width: 20vw;
-        height: 3rem;
-        background-color: white;
-        border-radius: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bolder;
-        font-size: 1.5rem;
-    }
-
-    .boton:hover{
-        background-color: grey;
+    .login__boton {
+        width: 45%;
+        height: 4rem;
     }
 }
 
-
-
-/***********************Vista para PC***********************/
-@media all and (min-width: 1440px){
-    header{
-        width: 100vw;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-    }
-
-    header figure{
-        width: 100%;
+/*************VISTA PARA MONITOR HD*************/
+@media all and (min-width: 1440px) {
+    /*************MERCHINDISING*************/
+    .merch__fig {
+        width: 22.5%;
+        height: 50vh;
         text-align: center;
+        margin-bottom: 5vh;
+        box-shadow: 0px 0px 3px #000;
+        padding: 10px;
     }
 
-    header figure img{
-        width: 12.5%;
+    .merch__img {
+        max-width: 90%;
+        border: thin solid rgba(00, 00, 00, 0.4);
     }
 
-    #saltar{
-        display: none;
-    }
-
-    #saltar:focus{
-        opacity: 1;
-        font-size: 0.25rem;
-        text-align: center;
-    }
-
-    main{
-        width: 100vw;
-        display: block;
-    }
-    
-    .icon-download{
-        display: none;
-    }
-    
-    .icon-upload{
-        display: none;
-    }
-
-    #desplegar{
-        display: none;
-    }
-
-    #ocultar{
-        display: none;
-    }
-
-    #menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100vw;
-        height: 5vh;
-    }
-
-    #contenedor-enlaces{
-        width: 85%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #contenedor-enlaces a li{
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.2rem;
-    }
-
-    #contenedor-enlaces a{
-        width: 20%;
-        height: 4.5vh;
-        text-align: center;
-    }
-
-    #contenedor-argumento:before, #contenedor-protagonistas:before,
-    #contenedor-temporadas:before, #contenedor-merchandising:before,
-    #contenedor-login:before{
-        display: block;
-        content: " ";
-        height: 125px;
-        margin-top: -125px;
-        visibility: hidden;
-    }
-
-    /*******************ARGUMENTO*******************/
-    #contenedor-argumento{
-        width: 100vw;
-    }
-
-    #argumento-fig{
-        width: 100vw;
-        margin-top: 2vh;
-        text-align: center;
-    }
-
-    #argumento-img{
-        width: 32.5%;
-    }
-
-    h2{
-        text-align: center;
-        font-size: 2rem;
-        margin-bottom: 2vh;
-    }
-    
-    #contenedor-argumento p{
-        font-size: 1.3rem;
-        font-weight: normal;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    /*******************PROTAGONISTAS*******************/
-    #contenedor-protagonistas{
-        margin-top: 10vh;
-        width: 100vw;
-    }
-
-    #contenedor-protagonistas article{
-        width: 100%;
-    }
-
-    #tabla-protas{
-        width: 95vw;
-        margin: 0 auto;
-        font-size: 1.2rem;
-        border: 0;
-    }
-
-    #tabla-protas tr{
-        display: table-row;
-    }
-
-    #col1, #col2, #col3, #col4, #col5, #col6{
-        width: 90px;
-    }
-
-    #tabla-protas td{
-        padding: 0.5rem;
-        text-align: center;
-    }
-
-    td:nth-child(5), th:nth-child(5){
-        width: 40vw;
-        padding: 0.5rem;
-    }
-
-    .prota-fig{
-        width: 100%;
-    }
-    
-    .prota-img{
-        max-width: 100%;
-    }
-
-    /*******************TEMPORADAS*******************/
-
-    /*Aqui volvi a descargar la diapositiva de teoria y vi que se
-    agrego otra manera de hacer esta parte*/
-
-    #contenedor-temporadas{
-        margin-top: 10vh;
-    }
-
-    #tabla-temporadas{
-        width: 95%;
-        margin: 0 auto;
-        font-size: 1rem;
-        border: 0;
-    }
-
-    #tabla-temporadas tr {
-        display: table-row;
-        margin-bottom: 0.4rem;
-        font-size: 1.2rem;
-    }
-
-    #tabla-temporadas td{
-        padding: 0.5rem;
-        text-align: center;
-    }
-
-    .temp-fig{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .temp-img{
-        max-width: 100%;
-    }
-
-    #tabla-temporadas iframe{
-        width: 90%;
-        height: 37.5vh;
-    }
-
-    /*******************MERCHANDISING*******************/
-    #contenedor-merchandising{
-        margin-top: 10vh;
-    }
-
-    #merch-article{
-        width: 90vw;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .album-merch{
-        width: 20vw;
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 4vh;
-    }
-    
-    .merch-img{
-        max-width: 100%;
-        height: 94%;
-        border: 2px solid gray;
-    }
-    
-    figcaption{
-        margin-top: 0;
-        font-size: 1.5rem;
-    }
-
-    #celular-fig{
-        max-width: 50vw;
-        height: 65vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2vh;
-    }
-
-    #celular{
-        width: 98%;
-        height: 50%;
-        margin-bottom: 8vh;
-        border: 2px solid gray;
-    }
-
-    /*******************SUBSCRIBETE*******************/
-    #contenedor-login{
-        width: 100vw;
-        height: 85vh;
-        margin-top: 10vh;
-        background-image: url(../image/suscribe\ 3.png);
-        background-repeat: none;
-        background-position: 92%;
-        background-size: 111%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-shadow: 2px 2px black;
-    }
-
-    #contenedor-login article{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    form{
-        width: 50%;
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    label{
-        width: 100%;
-        font-size: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    input, select{
-        border: 1px solid black;
-        width: 35vw;
-        height: 2.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-    }
-
-    #send{
-        width: 50vw;
-        height: 15vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 3px solid white;
-        border-radius: 5px;
-        box-shadow: 1px 1px black;
-    }
-
-    .boton{
-        width: 20vw;
-        height: 3rem;
-        background-color: white;
-        border-radius: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bolder;
-        font-size: 1.5rem;
-    }
-
-    .boton:hover{
-        background-color: grey;
+    article {
+        margin-bottom: 10vh;
     }
 }

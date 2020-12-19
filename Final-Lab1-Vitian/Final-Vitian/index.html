@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--METADATA-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jorge Iván Vitian">
+
+    <!--CSS-->
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+
+    <!--TITULO-->
+    <title>Punto tecnológico Tucumán</title>
+</head>
+<body>
+    <header>
+        <nav id="nav__salto">
+            <a href="#titulo" id="salto">Saltar al contenido</a>
+        </nav>
+        <h1 class="principal">Punto Tecnológico Tucumán</h1>
+    </header>
+
+    <nav id="mprimario">
+        <ul class="mp__ul">
+            <li class="mp__li"><a class="mp__a" href="">Inicio</a></li>
+            <li class="mp__li"><a class="mp__a" href="">TVs</a></li>
+            <li class="mp__li"><a class="mp__a" href="">Celulares</a></li>
+            <li class="mp__li"><a class="mp__a" href="">Pequeños Electros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2 id="titulo">Smart TV HITACHI 49" FULL HD CDH-LE49SMART14</h2>
+                <figure>
+                    <img src="img/smart.jpg" title="La mejor TV!" alt="Imagen ilustrativa del Smart TV">
+                    <figcaption>Smart TV HITACHI 49" - Oferta $17.999</figcaption>
+                </figure>
+
+                <table>
+                    <caption>Ficha Técnica</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" id="col1">Característica</th>
+                            <th scope="col" id="col2">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td headers="col1">Tipo Pantalla</td>
+                            <td headers="col2">Led</td>
+                        </tr>
+                        <tr>
+                            <td headers="col1">Tamaño</td>
+                            <td headers="col2">49"</td>
+                        </tr>
+                        <tr>
+                            <td headers="col1">Tipo TV</td>
+                            <td headers="col2">Smart</td>
+                        </tr>
+                        <tr>
+                            <td headers="col1">Resolución</td>
+                            <td headers="col2">Full HD</td>
+                        </tr>
+                        <tr>
+                            <td headers="col1">Admite</td>
+                            <td headers="col2">Netflix, Youtube</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>Colores reales, imágenes nitidas y definición FULL HD son algunas de las cualidades que brinda el Hitachi CDH-LE49SMART14 para disfrutar al máximo todo tu contenido preferido. Películas, Series, Internet y juegos, todo lo que más te gusta en 49 pulgadas.</p>
+            </article>
+        </section>
+
+        <aside class="login">
+            <form action="php/labo2.php" method="POST">
+                <legend class="login__legend">Login</legend>
+                <label for="user" class="login__label">Usuario:</label>
+                <input type="text" name="user" id="user" class="login__input">
+                <label for="pass" class="login__label">Clave:</label>
+                <input type="password" name="pass" id="pass" class="login__input">
+                <input type="submit" class="login__boton" value="Ingresar">
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Atención al Cliente: <a href="mailto:contacto@puntotecnologico.com.ar">contacto@puntotecnologico.com.ar</a></p>
+    </footer>
+</body>
+</html>
